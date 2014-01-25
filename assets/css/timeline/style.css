@@ -1,0 +1,79 @@
+/* timeline index */
+section.plugin-timeline.timeline-index figure.users-image {
+	float: left;
+	width: 60px; }
+
+section.plugin-timeline.timeline-index header.item-header,
+section.plugin-timeline.timeline-index div.item-article,
+section.plugin-timeline.timeline-index footer.item-footer {
+	margin-left: 60px; }
+
+section.plugin-timeline.timeline-index div.action-header {
+	padding-bottom: 5px; }
+
+section.plugin-timeline.timeline-index div.target-article.article {
+	background-color: #f9f9f9;
+	font-size: 11px;
+	padding: 6px 8px; }
+
+section.plugin-timeline.timeline-index div.target-article.media figure {
+	margin-top: 5px; }
+
+section.plugin-timeline ul.content-gallery li {
+	margin: 0 10px 0 0; }
+
+
+/* post comment */
+section.plugin-timeline div.post {
+	padding-bottom: 10px; }
+
+	section.plugin-timeline > div.post textarea.preview {
+		height: 15px; }
+
+	section.plugin-timeline > div.post textarea {
+		height: 45px; }
+
+	section.plugin-timeline div.post input {
+		float: left;
+		margin-right: 5px; }
+
+	section.plugin-timeline div.post span.ajax {
+		float: left;
+		margin: 5px 0 0 10px; }
+
+
+/* notices index */
+section.plugin-timeline.notices-index figure.image {
+	float: left;
+	width: 60px; }
+
+section.plugin-timeline.notices-index header.item-header,
+section.plugin-timeline.notices-index div.item-article,
+section.plugin-timeline.notices-index footer.item-footer {
+	margin-left: 60px; }
+
+
+/* recent notices */
+aside nav ul div.timeline-notices {
+	min-width: 159px;
+	max-width: 280px; }
+
+	aside nav ul div.timeline-notices li.new {
+		background-color: #ffffe1; }
+
+
+/* icons */
+aside nav.icons a.nav.timeline {
+	background-image: url('[base_url]assets/images/timeline/icons/timeline.png'); }
+
+.icon-timeline-public {
+	background: url('[base_url]assets/images/timeline/icons/timeline-public.png'); }
+
+.icon-timeline-load {
+	background: url('[base_url]assets/images/timeline/icons/timeline-load.png') no-repeat 0 50%; }
+
+.icon-timeline-notices {
+	background: url('[base_url]assets/images/timeline/icons/timeline-notices.png') no-repeat 0 50%; }
+
+	.icon-timeline-notices-new {
+		background: url('[base_url]assets/images/timeline/icons/timeline-notices-new.png') no-repeat 0 50%; }

@@ -1,0 +1,100 @@
+section.homepage {
+	padding-top: 10px; }
+
+
+section.homepage div.section-break {
+	background: url('[base_url]templates/[template]/images/home/section-break.png') repeat-x;
+	height: 20px; }
+
+
+/* splash */
+section.homepage-top {
+	background-color: #6cb4d7;
+	text-shadow: 0 0 3px rgba(0,0,0,0.3); }
+
+	section.homepage-top div.splash {
+		margin: 0 auto;
+		padding: 20px 0;
+		width: 990px; }
+
+		section.homepage-top div.promo-text {
+			float: right;
+			padding: 0 0 20px 0;
+			width: 600px; }
+
+			section.homepage-top div.promo-text div.text {
+				background-color: #59a1c3;
+				color: #fff;
+				font-size: 14px;
+				line-height: 22px;
+				padding: 20px; }
+
+				section.homepage-top div.promo-text div.text a {
+					color: #ffffc0; }
+
+					section.homepage-top div.promo-text div.text a:hover {
+						text-decoration: underline; }
+
+			section.homepage-top div.promo-text div.action {
+				padding-top: 20px; }
+
+		section.homepage-top div.promo-image {
+			background-color: #59a1c3;
+			float: left;
+			padding: 10px;
+			width: 350px; }
+
+			section.homepage-top div.promo-image div.image {
+				background: url('[base_url]templates/[template]/images/home/splash1.jpg') no-repeat 50% 50%;
+				height: 230px;
+				width: 350px; }
+
+		section.homepage-top div.promo-text h2 {
+			font-size: 26px;
+			line-height: 30px; }
+
+
+/* home boxes */
+section.homepage div.home-box-left {
+	float: left;
+	width: 475px; }
+
+section.homepage div.home-box-right {
+	float: right;
+	width: 475px; }
+
+
+/* users */
+section.homepage div.helper-users ul.content-gallery li {
+	margin-right: 15px; }
+
+	section.homepage div.helper-users figure.users-image div.image,
+	section.homepage div.helper-users figure.users-image div.image a.image {
+		height: 82px;
+		width: 82px; }
+
+		section.homepage div.helper-users figure.users-image figcaption.image-caption {
+			display: none;
+			max-width: 82px; }
+
+
+/* pictures */
+section.homepage div.helper-pictures figure.pictures-image div.image,
+section.homepage div.helper-pictures figure.pictures-image div.image a.image {
+	background-size: cover;
+	height: 82px;
+	width: 82px; }
+
+	section.homepage div.helper-pictures figure.pictures-image figcaption.image-caption {
+		max-width: 82px; }
+
+
+/* videos */
+section.homepage div.helper-videos figure.videos-image div.image,
+section.homepage div.helper-videos figure.videos-image div.image a.image {
+	background-size: cover;
+	height: 82px;
+	width: 82px; }
+
+	section.homepage div.helper-videos figure.videos-image figcaption.image-caption {
+		max-width: 82px; }

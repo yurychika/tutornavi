@@ -1,0 +1,1 @@
+<? view::load('cp/system/elements/grid', array('grid' => $grid));

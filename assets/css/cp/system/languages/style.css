@@ -1,0 +1,37 @@
+/* grid */
+section.plugin-system.languages-browse th.actions {
+	width: 310px; }
+
+section.plugin-system.languages-browse td.actions a.translate {
+	background: url('[base_url]assets/images/cp/system/languages/icons/translate.png') no-repeat 0 50%; }
+
+section.plugin-system.languages-browse td.actions a.export {
+	background: url('[base_url]assets/images/cp/system/languages/icons/export.png') no-repeat 0 50%; }
+
+section.plugin-system.languages-browse td.actions a.import {
+	background: url('[base_url]assets/images/cp/system/languages/icons/import.png') no-repeat 0 50%; }
+
+
+section.plugin-system.languages-browse th.translation,
+section.plugin-system.language-plugins th.translation {
+	width: 100px; }
+
+section.plugin-system.language-plugins th.actions {
+	width: 80px; }
+
+
+/* grid */
+section.plugin-system.language-translate fieldset.section div label {
+	font-size: 11px;
+	font-style: italic; }
+
+	section.plugin-system.language-translate fieldset.section input.text.translated {
+		background-color: #F9FFF9; }
+
+	section.plugin-system.language-translate fieldset.section input.text.untranslated {
+		background-color: #FFF9F2; }
+
+
+/* icons */
+.icon-system-languages-new {
+	background: url('[base_url]assets/images/cp/system/languages/icons/languages-new.png') no-repeat 0 50%; }

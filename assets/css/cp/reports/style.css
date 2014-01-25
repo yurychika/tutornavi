@@ -1,0 +1,22 @@
+/* grid users */
+section.plugin-reports.reports-browse th.subject {
+	width: 120px; }
+
+section.plugin-reports.reports-browse th.item {
+	width: 70px; }
+
+section.plugin-reports.reports-browse th.actions {
+	width: 190px; }
+
+section.plugin-reports.reports-browse td.actions a.action {
+	background: url('[base_url]assets/images/cp/reports/icons/action.png') no-repeat 0 50%; }
+
+section.plugin-reports.reports-browse td.actions a.view {
+	background: url('[base_url]assets/images/cp/reports/icons/view.png') no-repeat 0 50%; }
+
+/* icons */
+nav#navigation a.reports {
+	background-image: url('[base_url]assets/images/cp/reports/icons/reports.png'); }
+
+.icon-reports-subjects-new {
+	background: url('[base_url]assets/images/cp/reports/icons/subjects-new.png') no-repeat 0 50%; }

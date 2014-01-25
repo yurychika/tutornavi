@@ -1,0 +1,32 @@
+/* grid */
+section.plugin-pictures.albums-browse th.pictures {
+	width: 60px; }
+
+
+/* gallery */
+section.plugin-pictures.pictures-browse div.image {
+	height: 120px;
+	width: 150px; }
+
+
+/* edit picture */
+section.plugin-pictures.picture-edit form {
+	margin-right: 160px; }
+
+section.plugin-pictures.picture-edit figure.image {
+	float: right;
+	padding-top: 21px;
+	width: 150px; }
+
+	section.plugin-pictures.picture-edit figure.image div.image,
+	section.plugin-pictures.picture-edit figure.image a.image {
+		height: 120px;
+		width: 150px; }
+
+
+/* icons */
+nav#navigation a.pictures {
+	background-image: url('[base_url]assets/images/cp/pictures/icons/pictures.png'); }
+
+.icon-pictures {
+	background: url('[base_url]assets/images/cp/pictures/icons/pictures.png') no-repeat 0 50%; }

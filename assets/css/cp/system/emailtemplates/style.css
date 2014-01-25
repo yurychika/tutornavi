@@ -1,0 +1,4 @@
+/* grid */
+section.plugin-system.emailtemplates-plugins th.actions,
+section.plugin-system.emailtemplates-browse th.actions {
+	width: 80px; }

@@ -1,0 +1,6 @@
+/* icons */
+nav#navigation a.news {
+	background-image: url('[base_url]assets/images/cp/news/icons/news.png'); }
+
+.icon-news-new {
+	background: url('[base_url]assets/images/cp/news/icons/news-new.png') no-repeat 0 50%; }

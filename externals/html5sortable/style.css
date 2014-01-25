@@ -1,0 +1,15 @@
+ul.sortable {}
+
+	ul.sortable li { }
+
+		ul.sortable li:first-child { }
+
+	ul.sortable li.sortable-dragging { }
+
+	ul.sortable li.sortable-placeholder { }
+
+	ul.sortable li span.handle { }
+
+		ul.sortable li span.handle:hover {
+			cursor: move; }
+

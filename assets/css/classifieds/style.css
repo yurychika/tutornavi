@@ -1,0 +1,134 @@
+/* manage/user ads */
+section.plugin-classifieds.ads-index figure.image,
+section.plugin-classifieds.ads-manage figure.image,
+section.plugin-classifieds.ads-user figure.image,
+section.plugin-classifieds.ad-view figure.image,
+section.plugin-classifieds.pictures-manage figure.image {
+	float: left;
+	width: 160px; }
+
+section.plugin-classifieds.ads-index header.item-header,
+section.plugin-classifieds.ads-manage header.item-header,
+section.plugin-classifieds.ads-user header.item-header,
+section.plugin-classifieds.ad-view header.item-header,
+section.plugin-classifieds.ads-index div.item-article,
+section.plugin-classifieds.ads-manage div.item-article,
+section.plugin-classifieds.ads-user div.item-article,
+section.plugin-classifieds.ad-view div.item-article,
+section.plugin-classifieds.ads-index footer.item-footer,
+section.plugin-classifieds.ads-manage footer.item-footer,
+section.plugin-classifieds.ads-user footer.item-footer,
+section.plugin-classifieds.ad-view footer.item-footer,
+section.plugin-classifieds.pictures-manage fieldset.form {
+	margin-left: 160px; }
+
+
+/* ad data */
+section.plugin-classifieds dl.content-grid dt {
+	width: 100px; }
+
+	section.plugin-classifieds dl.content-grid dd {
+		margin-left: 110px; }
+
+
+/* picture thumbnail */
+section.plugin-classifieds.picture-thumbnail figure {
+	float: left;
+	margin-right: 10px; }
+
+section.plugin-classifieds.picture-thumbnail figure.preview {
+	height: [conf.classifieds.picture_dimensions_t_height]px;
+	overflow: hidden;
+	width: [conf.classifieds.picture_dimensions_t_width]px; }
+
+
+/* upload pictures */
+section.plugin-classifieds.picture-upload {
+	min-height: 400px;
+	min-width: 500px; }
+
+
+/* manage pictures */
+section.plugin-pictures.pictures-manage fieldset.form textarea {
+	height: 55px; }
+
+section.plugin-pictures.pictures-manage fieldset.form div.actions {
+	padding-top: 10px; }
+
+
+/* view picture */
+figure.classifieds-image div.view {
+	background-color: #e5e5e5;
+	text-align: center; }
+
+section.classifieds-pictures.picture-view div.content-view div.item-article {
+	padding-top: 10px; }
+
+
+/* thumbnails */
+figure.classifieds-image div.thumbnail,
+figure.classifieds-image div.thumbnail a.image {
+	height: 120px;
+	width: 150px; }
+
+	figure.classifieds-image figcaption.image-caption {
+		width: 150px; }
+
+
+/* missing picture */
+figure.classifieds-image .no_image {
+	background-image: url('[base_url]assets/images/classifieds/picture_none.jpg'); }
+
+
+/* picture view navigation arrows */
+figure.classifieds-image div.overlay.arrow,
+figure.classifieds-image div.overlay.arrow a {
+	height: 100%;
+	width: 32px; }
+
+	figure.classifieds-image div.overlay.arrow.left {
+		left: 0; }
+
+	figure.classifieds-image div.overlay.arrow.right {
+		right: 0; }
+
+	figure.classifieds-image div.overlay.arrow a span {
+		background-color: rgba(0,0,0,0.4);
+		background-image: url('[base_url]assets/images/classifieds/arrows.png');
+		background-position: 0 0;
+		height: 32px;
+		left: 0;
+		margin-top: -16px;
+		padding: 0;
+		position: absolute;
+		top: 50%;
+		width: 32px; }
+
+		figure.classifieds-image div.overlay.arrow.right a span {
+			background-position: -32px 0; }
+
+		figure.classifieds-image div.overlay.arrow a:hover span {
+			background-color: rgba(0,0,0,0.75); }
+
+
+/* total pictures element */
+figure.classifieds-image div.overlay.pictures {
+	bottom: 3px;
+	right: 3px; }
+
+
+/* icons */
+aside nav.icons a.nav.classifieds {
+	background-image: url('[base_url]assets/images/classifieds/icons/classifieds.png'); }
+
+.icon-classifieds-new {
+	background-image: url('[base_url]assets/images/classifieds/icons/classifieds-new.png'); }
+
+.icon-classifieds-pictures {
+	background-image: url('[base_url]assets/images/classifieds/icons/pictures.png'); }
+
+.icon-classifieds-pictures-edit {
+	background-image: url('[base_url]assets/images/classifieds/icons/pictures-edit.png'); }
+
+.icon-classifieds-pictures-new {
+	background-image: url('[base_url]assets/images/classifieds/icons/pictures-new.png'); }

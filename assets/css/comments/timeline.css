@@ -1,0 +1,16 @@
+section.plugin-timeline section.plugin-comments {
+	padding-left: 60px; }
+
+section.plugin-timeline section.plugin-comments ul.comments-list figure.image {
+	float: left;
+	width: 55px; }
+
+section.plugin-timeline section.plugin-comments figure.users-image .size_t, /* small thumbnail */
+section.plugin-timeline section.plugin-comments figure.users-image .size_t a.image {
+	background-size: contain;
+	height: 45px;
+	width: 45px; }
+
+section.plugin-timeline section.plugin-comments ul.comments-list div.item-article,
+section.plugin-timeline section.plugin-comments ul.comments-list footer.item-footer {
+	margin-left: 55px; }

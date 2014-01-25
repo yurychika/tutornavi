@@ -1,0 +1,11 @@
+nav#navigation a.help.documentation {
+	background-image: url('[base_url]assets/images/cp/system/help/icons/documentation.png'); }
+
+nav#navigation a.help.forum {
+	background-image: url('[base_url]assets/images/cp/system/help/icons/forum.png'); }
+
+nav#navigation a.help.support {
+	background-image: url('[base_url]assets/images/cp/system/help/icons/support.png'); }
+
+nav#navigation a.help.license {
+	background-image: url('[base_url]assets/images/cp/system/help/icons/license.png'); }

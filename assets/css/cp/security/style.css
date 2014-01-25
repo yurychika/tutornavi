@@ -1,0 +1,10 @@
+/* grid */
+section.plugin-security.captchas-browse th.name {
+	width: 180px; }
+
+section.plugin-security.captchas-browse th.actions {
+	width: 160px; }
+
+/* icons */
+nav#navigation a.system.security {
+	background-image: url('[base_url]assets/images/cp/security/icons/security.png'); }

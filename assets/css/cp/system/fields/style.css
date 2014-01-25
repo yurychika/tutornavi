@@ -1,0 +1,69 @@
+/* grid */
+section.plugin-system.fields-browse th.keyword {
+	max-width: 160px;
+	overflow: hidden;
+	width: 160px; }
+
+section.plugin-system.fields-browse th.type {
+	width: 150px; }
+
+	section.plugin-system.fields-browse li.section,
+	section.plugin-system.fields-browse td.name.section {
+		font-weight: bold; }
+
+	section.plugin-system.fields-browse td.type span {
+		background: url('[base_url]assets/images/cp/system/fields/icons/types/text.png') no-repeat 0 50%;
+		display: block;
+		padding-left: 20px; }
+
+		section.plugin-system.fields-browse td.type.radio span {
+			background: url('[base_url]assets/images/cp/system/fields/icons/types/radio.png') no-repeat 0 50%; }
+
+		section.plugin-system.fields-browse td.type.select span {
+			background: url('[base_url]assets/images/cp/system/fields/icons/types/select.png') no-repeat 0 50%; }
+
+		section.plugin-system.fields-browse td.type.section span {
+			background: url('[base_url]assets/images/cp/system/fields/icons/types/section.png') no-repeat 0 50%; }
+
+		section.plugin-system.fields-browse td.type.checkbox span {
+			background: url('[base_url]assets/images/cp/system/fields/icons/types/checkbox.png') no-repeat 0 50%; }
+
+		section.plugin-system.fields-browse td.type.textarea span {
+			background: url('[base_url]assets/images/cp/system/fields/icons/types/textarea.png') no-repeat 0 50%; }
+
+		section.plugin-system.fields-browse td.type.date span {
+			background: url('[base_url]assets/images/cp/system/fields/icons/types/date.png') no-repeat 0 50%; }
+
+		section.plugin-system.fields-browse td.type.birthday span {
+			background: url('[base_url]assets/images/cp/system/fields/icons/types/birthday.png') no-repeat 0 50%; }
+
+
+/* edit field */
+section.plugin-system.field-edit #input_row_system_field_items {
+	padding-bottom: 5px; }
+
+	section.plugin-system.field-edit #input_row_system_field_items div.wrap {
+		max-height: 250px;
+		padding-bottom: 5px;
+		overflow: auto; }
+
+		section.plugin-system.field-edit #input_row_system_field_items input.text {
+			float: left;
+			margin-right: 5px; }
+
+		section.plugin-system.field-edit #input_row_system_field_items a {
+			margin: 5px 5px 0 0; }
+
+
+/* icons */
+.icon-system-fields {
+	background: url('[base_url]assets/images/cp/system/fields/icons/fields.png') no-repeat 0 50%; }
+
+	.icon-system-fields-new {
+		background: url('[base_url]assets/images/cp/system/fields/icons/fields-new.png') no-repeat 0 50%; }
+
+.icon-system-fields-items-new {
+	background: url('[base_url]assets/images/cp/system/fields/icons/items-new.png') no-repeat 0 50%; }
+
+.icon-system-fields-items-delete {
+	background: url('[base_url]assets/images/cp/system/fields/icons/items-delete.png') no-repeat 0 50%; }

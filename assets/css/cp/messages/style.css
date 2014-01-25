@@ -1,0 +1,6 @@
+/* icons */
+nav#navigation a.messages {
+	background-image: url('[base_url]assets/images/cp/messages/icons/messages.png'); }
+
+.icon-messages-templates-new {
+	background: url('[base_url]assets/images/cp/messages/icons/templates-new.png') no-repeat 0 50%; }

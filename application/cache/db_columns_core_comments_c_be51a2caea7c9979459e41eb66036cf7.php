@@ -1,0 +1,1 @@
+"`c`.`comment_id`,`c`.`resource_id`,`c`.`item_id`,`c`.`user_id`,`c`.`poster_id`,`c`.`post_date`,`c`.`comment`"

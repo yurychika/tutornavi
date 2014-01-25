@@ -1,0 +1,31 @@
+ul.icon-list { }
+
+	ul.icon-list li {
+		background-position: 0 50%;
+		background-repeat: no-repeat;
+		line-height: 20px;
+		list-style: none;
+		margin: 0;
+		padding: 0 0 0 20px; }
+
+	ul.icon-list > li.progress {
+		background-image: url('[base_url]templates/[template]/images/icons/spinner.gif'); }
+
+	ul.arrow > li {
+		background-image : url('[base_url]templates/[template]/images/lists/arrow.png'); }
+
+	ul.tick > li {
+		background-image : url('[base_url]templates/[template]/images/lists/tick.png'); }
+
+ul.item-list > li {
+	border-top: 1px solid #e0e0e0;
+	padding-bottom: 3px;
+	padding-top: 3px; }
+
+	ul.item-list > li.first,
+	ul.item-list > li:first-child {
+		border: 0; }
+
+	ul.item-list.icon-list > li {
+		padding-bottom: 3px;
+		padding-top: 3px; }

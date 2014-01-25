@@ -1,0 +1,86 @@
+/* grid users */
+section.plugin-users.users-browse th.group {
+	width: 150px; }
+
+section.plugin-users.users-browse th.type {
+	width: 110px; }
+
+section.plugin-users.users-browse th.actions {
+	width: 130px; }
+
+
+/* grid groups */
+section.plugin-users.groups-browse th.actions {
+	width: 220px; }
+
+section.plugin-users.group-plugins th.actions {
+	width: 80px; }
+
+section.plugin-users.groups-browse td.actions a.permissions,
+section.plugin-users.group-plugins td.actions a.permissions {
+	background: url('[base_url]assets/images/cp/users/icons/groups-permissions.png') no-repeat 0 50%; }
+
+	section.plugin-users.group-permissions div.field span.icon {
+		margin-top: 5px; }
+
+
+/* grid types */
+section.plugin-users.types-browse th.actions {
+	width: 250px; }
+
+section.plugin-users.types-browse td.actions a.questions {
+	background: url('[base_url]assets/images/cp/users/icons/questions.png') no-repeat 0 50%; }
+
+
+/* grid authentication */
+section.plugin-users.authentication-browse th.actions {
+	width: 160px; }
+
+
+/* gallery */
+section.plugin-users.pictures-browse div.image {
+	height: 150px;
+	width: 150px; }
+
+
+/* edit user */
+section.plugin-users.user-edit fieldset.picture {
+	float: right;
+	width: 150px; }
+
+	section.plugin-users.user-edit figure.image div.image,
+	section.plugin-users.user-edit figure.image a.image {
+		height: 150px;
+		width: 150px; }
+
+
+/* icons */
+nav#navigation a.users.manage {
+	background-image: url('[base_url]assets/images/cp/users/icons/users.png'); }
+
+nav#navigation a.users.groups {
+	background-image: url('[base_url]assets/images/cp/users/icons/groups.png'); }
+
+nav#navigation a.users.types {
+	background-image: url('[base_url]assets/images/cp/users/icons/types.png'); }
+
+nav#navigation a.users.pictures {
+	background-image: url('[base_url]assets/images/cp/users/icons/pictures.png'); }
+
+nav#navigation a.users.authentication {
+	background-image: url('[base_url]assets/images/cp/users/icons/authentication.png'); }
+
+.icon-users-login {
+	background: url('[base_url]assets/images/cp/users/icons/login.png') no-repeat 0 50%; }
+
+.icon-users-new {
+	background: url('[base_url]assets/images/cp/users/icons/users-new.png') no-repeat 0 50%; }
+
+.icon-users-groups-new {
+	background: url('[base_url]assets/images/cp/users/icons/groups-new.png') no-repeat 0 50%; }
+
+	.icon-users-groups-permissions {
+		background: url('[base_url]assets/images/cp/users/icons/groups-permissions.png') no-repeat 0 50%; }
+
+.icon-users-types-new {
+	background: url('[base_url]assets/images/cp/users/icons/types-new.png') no-repeat 0 50%; }

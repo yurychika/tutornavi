@@ -1,0 +1,44 @@
+/* messages index/view */
+section.plugin-messages.messages-index figure.image,
+section.plugin-messages.message-view figure.image {
+	float: left;
+	width: 60px; }
+
+section.plugin-messages.messages-index header.item-header,
+section.plugin-messages.message-view header.item-header,
+section.plugin-messages.messages-index div.item-article,
+section.plugin-messages.message-view div.item-article,
+section.plugin-messages.messages-index footer.item-footer,
+section.plugin-messages.message-view footer.item-footer {
+	margin-left: 60px; }
+
+
+/* messages index */
+section.plugin-messages.messages-index li.new header h2 a {
+	background: url('[base_url]templates/[template]/images/icons/messages-new.png') no-repeat 100% 50%;
+	padding-right: 20px; }
+
+
+/* messages view */
+section.plugin-messages.message-view fieldset.post {
+	padding-top: 5px; }
+
+
+/* templates */
+section.plugin-messages.message-send a.template-help {
+	display: block;
+	float: right; }
+
+	section.plugin-messages.message-send div#messages-templates {
+		margin-top: 15px; }
+
+
+/* icons */
+aside nav.icons a.nav.messages {
+	background-image: url('[base_url]assets/images/messages/icons/messages.png'); }
+
+.icon-messages-new {
+	background: url('[base_url]assets/images/messages/icons/messages-new.png') no-repeat 0 50%; }
+
+.icon-messages-people {
+	background: url('[base_url]assets/images/messages/icons/messages-people.png') no-repeat 0 50%; }

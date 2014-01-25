@@ -1,0 +1,57 @@
+.sb-custom {
+  cursor: pointer;
+  display: block;
+  position: relative;
+    float: left;
+    margin-top: 1px;
+}
+.sb-custom .sparkbox-custom {
+  display: none;
+}
+
+.sb-select {
+  background: #fff url('../img/bg-select.png') no-repeat 100% 50%;
+  border: none;
+  color: #444;
+  left: 0;
+  padding: 4px 7px;
+    font-size: 12px;
+    line-height: 14px;
+    font-family: Arial,sans-serif;
+  position: relative;
+  text-decoration: none;
+  top: 0;
+  width: 118px;
+  height: 14px;
+    border: 1px solid #DEDEDE;
+  z-index: 1;
+    cursor: pointer;
+}
+.sb-dropdown {
+  background: white;
+  -webkit-box-shadow: 0 0 4px rgba(0, 0, 0, .2), inset 0px 6px 8px -8px rgba(0, 0, 0, .5);
+     -moz-box-shadow: 0 0 4px rgba(0, 0, 0, .2), inset 0px 6px 8px -8px rgba(0, 0, 0, .5);
+          box-shadow: 0 0 4px rgba(0, 0, 0, .2), inset 0px 6px 8px -8px rgba(0, 0, 0, .5);
+  display: none;
+  font-size: .9em;
+  left: 0;
+  list-style: none;
+  margin: 0;
+  padding: 5px 0;
+  position: absolute;
+  top: 24px;
+  width: 111px;
+  border: 1px solid #DEDEDE;
+  z-index: 0;
+}
+.sb-dropdown a {
+  color: #444;
+  display: block;
+  padding: 3px;
+    margin: 0 5px;
+  text-decoration: none;
+}
+.sb-dropdown a:hover,
+.sb-dropdown .selected a{
+  background: #d3d1be;
+}

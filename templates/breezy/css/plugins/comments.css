@@ -1,0 +1,7 @@
+section.plugin-comments div.info,
+section.plugin-comments div.post,
+section.plugin-comments ul.comments-list > li {
+	background-color: #f5f5f5;
+	border-bottom: 1px solid #fff;
+	font-size: 11px;
+	padding: 6px; }

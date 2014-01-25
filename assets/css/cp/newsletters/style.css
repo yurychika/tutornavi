@@ -1,0 +1,36 @@
+/* grid */
+section.plugin-newsletters.newsletters-browse th.status {
+	width: 80px; }
+
+section.plugin-newsletters.newsletters-browse th.actions {
+	width: 180px; }
+
+
+/* review page */
+section.plugin-newsletters.newsletter-review #input_row_newsletter_message_html td.value div.box,
+section.plugin-newsletters.newsletter-review #input_row_newsletter_message_text td.value div.box {
+	background-color: #fff;
+	border: 1px solid #ccc;
+	max-height: 200px;
+	overflow: auto;
+	padding: 10px; }
+
+section.plugin-newsletters.newsletter-review div.actions {
+	padding-top: 15px; }
+
+	section.plugin-newsletters.newsletter-review div.actions a {
+		margin-right: 10px; }
+
+
+/* icons */
+nav#navigation a.newsletters {
+	background-image: url('[base_url]assets/images/cp/newsletters/icons/newsletters.png'); }
+
+section.plugin-newsletters.newsletters-browse td.actions a.review {
+	background: url('[base_url]assets/images/cp/newsletters/icons/newsletters-review.png') no-repeat 0 50%; }
+
+.icon-newsletters-new {
+	background: url('[base_url]assets/images/cp/newsletters/icons/newsletters-new.png') no-repeat 0 50%; }
+
+.icon-newsletters-templates-new {
+	background: url('[base_url]assets/images/cp/newsletters/icons/templates-new.png') no-repeat 0 50%; }

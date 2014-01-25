@@ -1,0 +1,39 @@
+/* credits grid */
+.plugin-billing.transactions-browse th.gateway {
+	width: 120px; }
+
+
+/* plans grid */
+.plugin-billing.plans-browse th.group {
+	width: 120px; }
+
+.plugin-billing.plans-browse th.cycle {
+	width: 80px; }
+
+.plugin-billing.plans-browse th.signup {
+	width: 60px; }
+
+
+/* gateways grid */
+.plugin-billing.gateways-browse th.actions {
+	width: 160px; }
+
+
+/* icons */
+nav#navigation a.billing.credits {
+	background-image: url('[base_url]assets/images/cp/billing/icons/credits.png'); }
+
+nav#navigation a.billing.gateways {
+	background-image: url('[base_url]assets/images/cp/billing/icons/gateways.png'); }
+
+nav#navigation a.billing.plans {
+	background-image: url('[base_url]assets/images/cp/billing/icons/plans.png'); }
+
+nav#navigation a.billing.transactions {
+	background-image: url('[base_url]assets/images/cp/billing/icons/transactions.png'); }
+
+.icon-billing-plans-new {
+	background: url('[base_url]assets/images/cp/billing/icons/plans-new.png') no-repeat 0 50%; }
+
+.icon-billing-packages-new {
+	background: url('[base_url]assets/images/cp/billing/icons/packages-new.png') no-repeat 0 50%; }

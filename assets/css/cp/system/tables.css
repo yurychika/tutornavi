@@ -1,0 +1,175 @@
+/* table filters */
+table.filters {
+	float: right;
+	margin-bottom: 10px; }
+
+	table.filters td {
+		padding-right: 10px; }
+
+		table.filters td input.text {
+			width: 150px; }
+
+		table.filters td.submit input.submit {
+			padding: 3px 10px; }
+
+
+/* table grid */
+table.grid {
+	border-bottom: 2px solid #d1d1d3;
+	border-top: 2px solid #d1d1d3;
+	width: 100%; }
+
+	table.grid th {
+		background: #f6f6f6;
+		border-bottom: 2px solid #d1d1d3;
+		font-weight: bold;
+		padding: 6px 0 6px 6px; }
+
+		table.grid th a {
+			display: block;
+			float: left; }
+
+			table.grid th a.asc {
+				background: url('[base_url]assets/images/cp/system/tables/icons/direction.png') no-repeat 100% 2px;
+				height: 20px;
+				padding-right: 16px; }
+
+			table.grid th a.desc {
+				background: url('[base_url]assets/images/cp/system/tables/icons/direction.png') no-repeat 100% -14px;
+				height: 20px;
+				padding-right: 16px; }
+
+		table.grid th.check {
+			padding: 0;
+			text-align: center;
+			width: 30px; }
+
+		table.grid a:not(.label) {
+			color: #222222; }
+
+	table.grid td {
+		border-bottom: 1px solid #e3e7ef;
+		padding: 6px 0 6px 6px;
+		vertical-align: top; }
+
+		table.grid td.check {
+			padding: 6px 0 0 0;
+			text-align: center; }
+
+		table.grid tr.odd td {
+			background: #fff; }
+
+		table.grid tr.even td {
+			background: #fcfcfc; }
+
+		table.grid tr.plain td {
+			border: 0;
+			padding: 0; }
+
+	table.grid th.user {
+		width: 120px; }
+
+	table.grid th.date {
+		width: 120px; }
+
+	table.grid th.price {
+		width: 60px; }
+
+	table.grid th.status {
+		width: 60px; }
+
+	table.grid th.actions {
+		width: 130px; }
+
+		table.grid td.actions {
+			padding: 6px 0 0 2px; }
+
+		table.grid td.actions ul.actions > li {
+			float: left;
+			line-height: 20px;
+			padding-left: 6px; }
+
+		table.grid td.actions a {
+			display: block;
+			line-height: 20px;
+			padding-left: 20px; }
+
+			table.grid td.actions a.details {
+				background: url('[base_url]assets/images/cp/system/icons/details.png') no-repeat 0 50%; }
+
+			table.grid td.actions a.edit {
+				background: url('[base_url]assets/images/cp/system/icons/edit.png') no-repeat 0 50%; }
+
+			table.grid td.actions a.view {
+				background: url('[base_url]assets/images/cp/system/icons/view.png') no-repeat 0 50%; }
+
+			table.grid td.actions a.settings {
+				background: url('[base_url]assets/images/cp/system/icons/settings.png') no-repeat 0 50%; }
+
+			table.grid td.actions a.install {
+				background: url('[base_url]assets/images/cp/system/icons/install.png') no-repeat 0 50%; }
+
+			table.grid td.actions a.uninstall {
+				background: url('[base_url]assets/images/cp/system/icons/uninstall.png') no-repeat 0 50%; }
+
+			table.grid td.actions a.delete {
+				background: url('[base_url]assets/images/cp/system/icons/delete.png') no-repeat 0 50%; }
+
+		table.grid td.actions ul.actions > li.dropdown {
+			position: relative; }
+
+			table.grid td.actions ul.actions > li.dropdown.hover > a { }
+
+			table.grid td.actions ul.actions > li.dropdown ul {
+				background: #fff;
+				border: 1px solid #a6a196;
+				right: 0;
+				padding: 2px 0;
+				position: absolute;
+				top: 21px;
+				z-index: 9999; }
+
+				table.grid td.actions ul.actions > li.dropdown ul li {
+					padding: 0 8px 0 4px; }
+
+				table.grid td.actions ul.actions > li.dropdown li a {
+					float: none;
+					white-space: nowrap;
+					line-height: 20px; }
+
+/* table footer */
+div.footer-section {
+	padding-top: 10px; }
+
+	div.footer-section div.pagination {
+		float: left; }
+
+	div.footer-section div.actions {
+		float: right; }
+
+
+/* table data */
+table.data {
+	border-bottom: 2px solid #d1d1d3;
+	border-top: 2px solid #d1d1d3;
+	width: 100%; }
+
+	table.data th {
+		background: #f6f6f6;
+		border-bottom: 2px solid #d1d1d3;
+		font-weight: bold;
+		padding: 6px 0 6px 6px; }
+
+	table.data td {
+		border-bottom: 1px solid #e3e7ef;
+		padding: 6px 0 6px 6px;
+		vertical-align: top; }
+
+		table.data tr.odd td {
+			background: #fff; }
+
+		table.data tr.even td {
+			background: #fcfcfc; }
+
+	table.data td.name {
+		width: 150px; }

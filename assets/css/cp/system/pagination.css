@@ -1,0 +1,28 @@
+div.pagination {
+	width: 500px; }
+
+div.pagination span {
+	float: left;
+	line-height: 22px;
+	margin-right: 10px; }
+
+div.pagination li {
+	float: left;
+	margin-right: 5px; }
+
+	div.pagination a {
+		border: 1px solid #e3e7ef;
+		color: #222;
+		display: block;
+		line-height: 20px;
+		padding: 0 5px;
+		text-decoration: none; }
+
+		div.pagination a.current,
+		div.pagination a:hover {
+			background: #fcfcfc;
+			text-decoration: none; }
+
+div.pagination span.icon-system-ajax {
+	height: 22px;
+	line-height: 22px; }

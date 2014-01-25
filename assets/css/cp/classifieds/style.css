@@ -1,0 +1,32 @@
+/* grid */
+section.plugin-classifieds.ads-browse th.pictures {
+	width: 60px; }
+
+
+/* gallery */
+section.plugin-classifieds.pictures-browse div.image {
+	height: 120px;
+	width: 150px; }
+
+
+/* edit picture */
+section.plugin-classifieds.picture-edit form {
+	margin-right: 160px; }
+
+section.plugin-classifieds.picture-edit figure.image {
+	float: right;
+	padding-top: 21px;
+	width: 150px; }
+
+	section.plugin-classifieds.picture-edit figure.image div.image,
+	section.plugin-classifieds.picture-edit figure.image a.image {
+		height: 120px;
+		width: 150px; }
+
+
+/* icons */
+nav#navigation a.classifieds {
+	background-image: url('[base_url]assets/images/cp/classifieds/icons/classifieds.png'); }
+
+.icon-classifieds-pictures {
+	background: url('[base_url]assets/images/cp/classifieds/icons/pictures.png') no-repeat 0 50%; }

@@ -1,0 +1,40 @@
+section.plugin-users.profile-view {
+	padding-top: 10px; }
+
+
+section.plugin-users.login div.remote-connect.extra,
+section.plugin-users.signup-account div.remote-connect.extra {
+	border-top: 1px solid #e0e0e0; }
+
+
+aside div.login div.remote-connect.extra {
+	float: right; }
+
+aside div.login div.remote-connect.single {
+	padding-top: 5px; }
+
+	aside div.login div.remote-connect.single a {
+		display: block;
+		margin-bottom: 10px; }
+
+
+nav#trail span.online {
+	color: #008000; }
+
+nav#trail span.date {
+	color: #969696; }
+
+
+/* login form */
+aside#sidebar div.login {
+	padding: 0 0 10px 5px; }
+
+	aside#sidebar div.login input.email {
+		background: url('[base_url]assets/images/users/icons/login-email.png') no-repeat 2px 50%;
+		padding-left: 20px;
+		width: 120px; }
+
+	aside#sidebar div.login input.password {
+		background: url('[base_url]assets/images/users/icons/login-password.png') no-repeat 2px 50%;
+		padding-left: 20px;
+		width: 120px; }

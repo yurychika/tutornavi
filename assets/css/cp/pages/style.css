@@ -1,0 +1,23 @@
+/* grid */
+section.plugin-pages.pages-browse th.actions {
+	width: 210px; }
+
+section.plugin-pages.pages-browse td.actions a.pages {
+	background: url('[base_url]assets/images/cp/pages/icons/pages.png') no-repeat 0 50%; }
+
+
+/* icons */
+nav#navigation a.pages {
+	background-image: url('[base_url]assets/images/cp/pages/icons/pages.png'); }
+
+.icon-pages {
+	background: url('[base_url]assets/images/cp/pages/icons/pages-inner.png') no-repeat 0 50%; }
+
+	.icon-pages-inner {
+		background: url('[base_url]assets/images/cp/pages/icons/pages-inner.png') no-repeat 0 50%; }
+
+	.icon-pages-view {
+		background: url('[base_url]assets/images/cp/pages/icons/pages-view.png') no-repeat 0 50%; }
+
+	.icon-pages-new {
+		background: url('[base_url]assets/images/cp/pages/icons/pages-new.png') no-repeat 0 50%; }

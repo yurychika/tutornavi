@@ -1,0 +1,8 @@
+div.helper-blogs figure.image {
+	float: left;
+	width: 60px; }
+
+div.helper-blogs header.item-header,
+div.helper-blogs div.item-article,
+div.helper-blogs footer.item-footer {
+	margin-left: 60px; }

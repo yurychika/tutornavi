@@ -1,0 +1,37 @@
+/* icons */
+.icon {
+	display: block;
+	height: 16px;
+	width: 16px; }
+
+.icon-text {
+	float: left;
+	height: auto;
+	min-height: 16px;
+	padding-left: 20px;
+	width: auto; }
+
+	.icon-text-invert {
+		padding-left: 0;
+		padding-right: 20px; }
+
+.icon-system-ajax {
+	background: url('[base_url]templates/[template]/images/icons/spinner.gif') no-repeat 0 50% !important; }
+
+.icon-system-done {
+	background: url('[base_url]templates/[template]/images/icons/done.png') no-repeat 0 50%; }
+
+.icon-system-delete {
+	background: url('[base_url]templates/[template]/images/icons/delete.png') no-repeat 0 50%; }
+
+.icon-system-cancel {
+	background: url('[base_url]templates/[template]/images/icons/cancel.png') no-repeat 0 50%; }
+
+	.icon-system-search {
+		background: url('[base_url]templates/[template]/images/icons/search.png') no-repeat 0 50%; }
+
+	.icon-system-previous {
+		background: url('[base_url]templates/[template]/images/icons/previous.png') no-repeat 0 50%; }
+
+	.icon-system-next {
+		background: url('[base_url]templates/[template]/images/icons/next.png') no-repeat 100% 50%; }

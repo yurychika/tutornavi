@@ -1,0 +1,14 @@
+div.helper-classifieds figure.image {
+	float: left;
+	width: 60px; }
+
+div.helper-classifieds header.item-header,
+div.helper-classifieds div.item-article,
+div.helper-classifieds footer.item-footer {
+	margin-left: 60px; }
+
+	div.helper-classifieds figure.classifieds-image div.image,
+	div.helper-classifieds figure.classifieds-image div.image a.image {
+		background-size: contain;
+		height: 50px;
+		width: 50px; }

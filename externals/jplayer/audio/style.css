@@ -1,0 +1,138 @@
+div.jp-audio {
+	font: 10px tahoma,arial,sans-serif;
+	line-height: 16px;
+	color: #222;
+}
+
+div.jp-interface {
+	float: left;
+	border: 1px solid #e6e6e6;
+	background-color: #f8f8f8;
+	padding: 8px;
+	border-radius: 3px;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+}
+
+div.jp-interface ul.jp-controls {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+}
+
+div.jp-audio ul.jp-controls { }
+
+div.jp-interface ul.jp-controls li {
+	display: inline;
+	float: left;
+}
+
+div.jp-interface ul.jp-controls a.jp-button {
+	display: block;
+	overflow: hidden;
+	text-indent: -9999px;
+	width: 16px;
+	height: 16px;
+}
+
+a.jp-play {
+	background: url('controls.png') no-repeat;
+}
+a.jp-play:hover {
+	background-position: 0 -16px;
+}
+
+a.jp-pause {
+	background: url('controls.png') no-repeat -16px 0;
+	display: none;
+}
+a.jp-pause:hover {
+	background-position: -16px -16px;
+}
+
+a.jp-mute {
+	background: url('controls.png') no-repeat -32px 0;
+}
+a.jp-mute:hover {
+	background-position: -32px -16px;
+}
+
+a.jp-unmute {
+	background: url('controls.png') no-repeat -48px 0;
+	display: none;
+}
+a.jp-unmute:hover {
+	background-position: -48px -16px;
+}
+
+div.jp-current-time,
+div.jp-duration {
+	padding: 0 8px;
+}
+
+div.jp-progress {
+	overflow: hidden;
+	background: #d8dee4;
+	width: 250px;
+	height: 5px;
+	margin-top: 6px;
+	cursor: pointer;
+}
+
+div.jp-seek-bar {
+	background: #bac7d4;
+	width: 0;
+	height: 5px;
+}
+
+div.jp-play-bar {
+	background: #5c7a99;
+	width: 0;
+	height: 5px;
+}
+
+div.jp-seeking-bg {
+	background-color: #5c7a99;
+}
+
+li.jp-volume {
+	padding: 6px 0 5px 4px; }
+
+div.jp-volume-bar {
+	overflow: hidden;
+	background: #b9c6d3;
+	width: 50px;
+	height: 5px;
+	cursor: pointer;
+}
+
+div.jp-volume-bar-value {
+	background: #5c7a99;
+	width: 0;
+	height: 5px;
+}
+
+div.jp-jplayer audio,
+div.jp-jplayer {
+	width: 0px;
+	height: 0px;
+}
+
+div.jp-jplayer {
+	background-color: #000000;
+}
+
+.jp-no-solution {
+	color: #222;
+	display: none;
+}
+
+.jp-no-solution a {
+	color:#000;
+}
+
+.jp-no-solution span {
+	display: block;
+	font-weight: bold;
+}

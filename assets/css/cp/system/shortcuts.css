@@ -1,0 +1,38 @@
+.float-left {
+	float: left; }
+
+.float-right {
+	float: right; }
+
+.text-justify {
+	text-align: justify; }
+
+.text-left {
+	text-align: left; }
+
+.text-right {
+	text-align: right; }
+
+.hidden {
+	display: none; }
+
+.break {
+	padding-bottom: 10px !important; }
+
+.hr {
+	border-bottom: 1px solid #dae1e8; }
+
+.nobreak {
+	margin-bottom: 0 !important;
+	padding-bottom: 0 !important; }
+
+.nowrap {
+	white-space: nowrap; }
+
+.nooverflow {
+	overflow: hidden;
+	text-overflow: ellipsis; }
+
+.highlight {
+	background-color: #ffffc0; }
+

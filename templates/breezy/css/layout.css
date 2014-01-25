@@ -1,0 +1,337 @@
+html {
+	overflow-y: scroll; }
+
+
+html, body {
+	background-color: #f0f0f0;
+	color: #222;
+	cursor: default;
+	font-family: arial,sans-serif;
+	line-height: 16px;
+	font-size: 12px; }
+
+html.modal,
+body.modal {
+	background-color: #fff;
+	min-height: 150px;
+	overflow: hidden; }
+
+
+header#header div.inner,
+nav#site-nav div.inner,
+section#container div.inner,
+footer#footer div.inner {
+	margin: 0 auto;
+	width: 990px; }
+
+
+header#header {
+	background-color: #fff;
+	height: 70px; }
+
+	header#header a.title {
+		background: url('[base_url]templates/[template]/images/logo.png') no-repeat 0 50%;
+		color: #222;
+		display: block;
+		float: left;
+		font-size: 20px;
+		height: 70px;
+		line-height: 70px;
+		padding-left: 60px; }
+
+		header#header a.title:hover {
+			text-decoration: none; }
+
+			header#header a.title span.hide {
+				display: none; }
+
+
+nav#site-nav {
+	background-color: #1d79a4;
+	padding: 5px 0; }
+
+	nav#site-nav ul { }
+
+		nav#site-nav li {
+			float: left;
+			font-size: 12px;
+			height: 28px;
+			line-height: 28px; }
+
+			nav#site-nav a {
+				color: #fff;
+				display: block;
+				font-weight: bold;
+				height: 28px;
+				line-height: 28px;
+				padding: 0 8px;
+				text-decoration: none;
+				transition: background 0.1s ease-in-out;
+					-moz-transition: background 0.1s ease-in-out;
+					-ms-transition: background 0.1s ease-in-out;
+					-webkit-transition: background 0.1s ease-in-out;
+					-o-transition: background 0.1s ease-in-out; }
+
+			nav#site-nav li.active a {
+				text-decoration: underline; }
+
+			nav#site-nav a:hover,
+			nav#site-nav li.active a:hover {
+				background-color: #0a556e;
+				text-decoration: none;
+				border-radius: 3px;
+					-moz-border-radius: 3px;
+					-webkit-border-radius: 3px; }
+
+	nav#site-nav li.login,
+	nav#site-nav li.signup {
+		float: right; }
+
+
+section#container {
+	margin: 0 auto;
+	width: 990px; }
+
+	section#container div.inner {
+		background: #fff url('[base_url]templates/[template]/images/hr.gif') repeat-y 170px 0; }
+
+	section#container.one div.inner {
+		background: #fff; }
+
+
+aside#sidebar {
+	float: left;
+	padding: 5px;
+	width: 160px; }
+
+
+section#content {
+	float: left;
+	min-height: 400px;
+	overflow: hidden;
+	padding: 0 10px 10px 10px;
+	width: 800px; }
+
+
+	section#container.one section#content {
+		width: 970px; }
+
+
+section#content div.sidebar {
+	float: left;
+	font-size: 11px;
+	padding-right: 10px;
+	width: 200px; }
+
+	section#content div.sidebar.float-right {
+		float: right;
+		padding-left: 10px;
+		padding-right: 0; }
+
+section#content div.content {
+	float: left;
+	width: 590px; }
+
+
+aside nav {
+	font-size: 11px;
+	padding-bottom: 10px; }
+
+	aside nav li {
+		position: relative; }
+
+		aside nav a.nav {
+			color: #2b587a;
+			display: block;
+			height: 26px;
+			line-height: 26px;
+			padding-left: 5px;
+			text-decoration: none; }
+
+			aside nav a.nav:hover {
+				background-color: #f7f7f7;
+				text-decoration: none; }
+
+		aside nav.icons a.nav {
+			background-position: 4px 50%;
+			background-repeat: no-repeat;
+			padding-left: 26px; }
+
+		aside nav span.badge,
+		aside nav a.badge-icon,
+		aside nav a.badge {
+			font-size: 10px;
+			position: absolute;
+			right: 5px;
+			top: 5px; }
+
+			aside nav span.badge span,
+			aside nav a.icon span,
+			aside nav a.badge span {
+				display: none; }
+
+	aside nav li.dropdown {
+		position: relative;
+		z-index: 5000; }
+
+		aside nav ul div.dropdown {
+			background-color: #fff;
+			border: 1px solid #ccc;
+			left: 0;
+			position: absolute;
+			top: 26px; }
+
+		aside nav ul div.dropdown li {
+			border-top: 1px solid #e0e0e0;
+			line-height: 26px;
+			overflow: hidden;
+			padding: 0 6px;
+			text-decoration: none;
+			text-overflow: ellipsis;
+			white-space: nowrap; }
+
+			aside nav ul div.dropdown li.first {
+				border-top: 0; }
+
+
+nav#trail {
+	font-size: 11px; }
+
+	nav#trail ul {
+		border-bottom: 1px solid #e0e0e0;
+		padding: 5px 0; }
+
+		nav#trail li {
+			float: left;
+			height: 16px;
+			line-height: 16px;
+			padding-right: 8px; }
+
+		nav#trail li.side {
+			float: right;
+			padding-left: 8px;
+			padding-right: 0; }
+
+			nav#trail a {
+				color: #222222;
+				float: left;
+				height: 16px;
+				line-height: 16px;
+				text-decoration: none; }
+
+				nav#trail a:hover {
+					text-decoration: underline; }
+
+		nav#trail li.ajax-loading {
+			float: right;
+			padding-top: 6px; }
+
+
+hgroup.content {
+	padding: 10px 0; }
+
+	hgroup.content h1 {
+		color: #d20000;
+		float: left;
+		margin: 0;
+		max-width: 600px;
+		overflow: hidden;
+		text-overflow: ellipsis; }
+
+	hgroup.content nav {
+		float: right; }
+
+		hgroup.content li {
+			float: left;
+			line-height: 16px;
+			padding-left: 10px; }
+
+			hgroup.content li a {
+				background-position: 0 50%;
+				background-repeat: no-repeat;
+				line-height: 16px; }
+
+
+nav#tabs {
+	border-bottom: 1px solid #ccc;
+	height: 27px;
+	margin-bottom: 10px; }
+
+	nav#tabs ul {
+		padding-left: 10px;
+		top: 1px; }
+
+		nav#tabs li {
+			line-height: 26px;
+			float: left;
+			margin-right: 6px; }
+
+			nav#tabs a {
+				background-color: #f0f0f0;
+				background-position: 4px 50%;
+				background-repeat: no-repeat;
+				border: 1px solid #ccc;
+				border-radius: 2px;
+					-moz-border-radius: 2px;
+					-webkit-border-radius: 2px;
+				color: #222222;
+				display: block;
+				line-height: 26px;
+				padding: 0 8px 0 24px;
+				position: relative;
+				text-decoration: none; }
+
+			nav#tabs li.active a,
+			nav#tabs li a.active {
+				background-color: #fff;
+				border-bottom: 1px solid #fff; }
+
+				nav#tabs a:hover {
+					background-color: #fff;
+					text-decoration: none; }
+
+			nav#tabs a.no-icon {
+				padding-left: 8px; }
+
+
+footer#footer {
+	background-color: #444;
+	color: #ccc;
+	font-size: 12px; }
+
+	footer#footer div.inner {
+		padding: 15px 0; }
+
+		footer#footer a {
+			color: #ccc; }
+
+			footer#footer a:hover {
+				text-decoration: underline; }
+
+		footer#footer div.navigation {
+			float: left;
+			line-height: 32px; }
+
+			footer#footer div.navigation li {
+				float: left;
+				padding-right: 10px; }
+
+		footer#footer div.social-bookmarks {
+			float: right; }
+
+		footer#footer div.copyright.single {
+			color: #999;
+			font-size: 11px;
+			float: right;
+			line-height: 32px; }
+
+		footer#footer div.copyright.social {
+			border-top: 1px solid #333;
+			color: #999;
+			font-size: 11px;
+			margin-top: 15px;
+			padding-top: 10px;
+			text-align: right; }
+
+			footer#footer div.copyright a {
+				color: #999; }

@@ -1,0 +1,30 @@
+.likes {
+	height: 16px;
+	position: relative; }
+
+	.likes span.ajax {
+		bottom: 0;
+		left: -20px;
+		position: absolute; }
+
+	.likes span.blurb {
+		float: left; }
+
+	.likes span.like,
+	.likes a.like,
+	.likes a.unlike {
+		background: url('[base_url]templates/[template]/images/icons/like.png') no-repeat;
+		display: block;
+		float: left;
+		height: 16px;
+		margin-right: 4px;
+		text-decoration: none;
+		width: 16px; }
+
+		.likes a.like:hover,
+		.likes a.unlike {
+			background-position: 0 -16px; }
+
+		.likes a.like span,
+		.likes a.unlike span {
+			display: none; }

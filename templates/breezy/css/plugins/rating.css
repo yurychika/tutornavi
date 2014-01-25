@@ -1,0 +1,32 @@
+.rating {
+	position: relative;
+	width: 60px; }
+
+	.rating span.ajax {
+		bottom: 0;
+		left: -20px;
+		position: absolute; }
+
+	.rating a {
+		background: url('[base_url]templates/[template]/images/icons/rating.png') no-repeat;
+		display: block;
+		float: left;
+		height: 16px;
+		position: relative;
+		width: 12px; }
+
+	.rating a.rated {
+		background-position: 0 -16px; }
+
+	.rating a.hover {
+		background-position: 0 -32px; }
+
+.rating.static {
+	background: url('[base_url]templates/[template]/images/icons/rating.png') repeat-x;
+	height: 16px;
+	width: 60px; }
+
+	.rating.static .score {
+		background: url('[base_url]templates/[template]/images/icons/rating.png') repeat-x 0 -16px;
+		height: 16px;
+		width: 0; }

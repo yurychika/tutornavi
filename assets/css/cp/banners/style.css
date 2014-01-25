@@ -1,0 +1,24 @@
+/* grid */
+.plugin-banners.banners-browse table.grid th.clicks,
+.plugin-banners.banners-browse table.grid th.views {
+	width: 80px; }
+
+.plugin-banners.groups-browse table.grid th.actions {
+	width: 195px; }
+
+.plugin-banners.groups-browse table.grid td.actions a.banners {
+	background: url('[base_url]assets/images/cp/banners/icons/banners.png') no-repeat 0 50%; }
+
+
+/* icons */
+nav#navigation a.banners {
+	background-image: url('[base_url]assets/images/cp/banners/icons/banners.png'); }
+
+.icon-banners-groups-new {
+	background: url('[base_url]assets/images/cp/banners/icons/groups-new.png') no-repeat 0 50%; }
+
+.icon-banners {
+	background: url('[base_url]assets/images/cp/banners/icons/banners.png') no-repeat 0 50%; }
+
+	.icon-banners-new {
+		background: url('[base_url]assets/images/cp/banners/icons/banners-new.png') no-repeat 0 50%; }

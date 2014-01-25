@@ -1,0 +1,24 @@
+.tutor_reg_form table #gender label, .tutor_reg_form table #age label,  .tutor_reg_form table #letter label {
+	padding-top: 3px;
+}
+
+.tutor_reg_form table .choices label {
+	padding-top: 3px;
+}
+
+.tutor_reg_form table #lang .hide,.tutor_reg_form table #lang .show {
+	margin-top: 13px;
+}
+
+.tutor_reg_form .input_wrap input[type="text"] {
+	padding-top: 5px \0/;
+}
+
+.registration_wrap .form1 .box input.mail {
+	padding-top: 8px\0/;
+	height: 25px\0/;
+}
+
+.search_section form input#kwords {
+	padding-top: 5px \0/;
+}

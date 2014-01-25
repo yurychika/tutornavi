@@ -1,0 +1,50 @@
+/* sortable */
+ul.sortable-grid {}
+
+	ul.sortable-grid li {
+		border-top: 1px solid #e3e7ef;
+		padding: 8px 10px;
+		vertical-align: top; }
+
+		ul.sortable-grid li:first-child {
+			border: 0; }
+
+		ul.sortable-grid li.sortable-dragging {
+			padding: 8px 10px; }
+
+		ul.sortable-grid li.sortable-placeholder {
+			height: 16px; }
+
+	ul.sortable-grid li span.handle {
+		background: url('[base_url]externals/html5sortable/images/icons/handle.png') no-repeat 0 50%;
+		display: block;
+		float: left;
+		height: 16px;
+		margin-right: 10px;
+		width: 16px; }
+
+		ul.sortable-grid li span.handle:hover {
+			cursor: move; }
+
+ul.sortable-form {}
+
+	ul.sortable-form li {
+		padding-bottom: 4px; }
+
+		ul.sortable-form li.sortable-dragging {
+			padding: 2px 0; }
+
+		ul.sortable-form li.sortable-placeholder {
+			border: 1px dotted #ccc;
+			height: 26px; }
+
+	ul.sortable-form li span.handle {
+		background: url('[base_url]externals/html5sortable/images/icons/handle.png') no-repeat 0 50%;
+		display: block;
+		float: left;
+		height: 24px;
+		margin-right: 10px;
+		width: 16px; }
+
+		ul.sortable-form li span.handle:hover {
+			cursor: move; }

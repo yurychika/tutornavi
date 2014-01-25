@@ -1,0 +1,27 @@
+section.plugin-comments {
+	padding-top: 10px; }
+
+/* post comment */
+section.plugin-comments div.post textarea {
+	height: 35px; }
+
+section.plugin-comments div.post input {
+	float: left;
+	margin-right: 5px; }
+
+section.plugin-comments div.post span.ajax {
+	float: left;
+	margin: 5px 0 0 10px; }
+
+
+/* browse comments */
+section.plugin-comments ul.comments-list figure.image {
+	float: left;
+	width: 60px; }
+
+section.plugin-comments ul.comments-list div.item-article,
+section.plugin-comments ul.comments-list footer.item-footer {
+	margin-left: 60px; }
+
+	section.plugin-comments ul.comments-list li span.author {
+		display: block; }

@@ -1,0 +1,1 @@
+"`p`.`page_id`,`p`.`parent_id`,`p`.`keyword`,`p`.`location`,`p`.`post_date`,`p`.`total_views`,`p`.`trail`,`p`.`votes`,`p`.`likes`,`p`.`comments`,`p`.`total_votes`,`p`.`total_score`,`p`.`total_rating`,`p`.`total_likes`,`p`.`total_comments`,`p`.`order_id`,`p`.`system`,`p`.`active`,`p`.`file_name`"

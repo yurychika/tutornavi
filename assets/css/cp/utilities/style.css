@@ -1,0 +1,11 @@
+/* grid */
+section.plugin-utilities.counters-plugins th.actions {
+	width: 80px; }
+
+section.plugin-utilities.counters-plugins td.actions a.update {
+	background: url('[base_url]assets/images/cp/utilities/icons/counters-update.png') no-repeat 0 50%; }
+
+
+/* icons */
+nav#navigation a.system.utilities {
+	background-image: url('[base_url]assets/images/cp/utilities/icons/utilities.png'); }

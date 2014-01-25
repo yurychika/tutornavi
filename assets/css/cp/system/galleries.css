@@ -1,0 +1,67 @@
+ul.gallery { }
+
+	ul.gallery > li {
+		float: left;
+		padding: 0 12px 12px 0; }
+
+		ul.gallery figure {
+			position: relative; }
+
+			ul.gallery div.overlay {
+				position: absolute; }
+
+				ul.gallery div.overlay.top-left {
+					left: 8px;
+					top: 8px; }
+
+				ul.gallery div.overlay.top-right {
+					right: 8px;
+					top: 8px; }
+
+				ul.gallery div.overlay.bottom-right {
+					bottom: 8px;
+					right: 8px; }
+
+				ul.gallery div.overlay.bottom-left {
+					bottom: 8px;
+					left: 8px; }
+
+				ul.gallery div.overlay.actions {
+					background: #fff;
+					border: 1px solid #222222;
+					font-size: 11px;
+					padding: 3px 6px;
+					right: 5px;
+					top: 5px; }
+
+					ul.gallery div.overlay.actions li {
+						float: left;
+						padding-left: 6px; }
+
+						ul.gallery div.overlay.actions li:first-child {
+							padding-left: 0; }
+
+				ul.gallery div.overlay.check {
+					background: url('[base_url]assets/images/cp/system/galleries/icons/check.png') no-repeat;
+					height: 16px;
+					left: 5px;
+					top: 5px;
+					width: 16px; }
+
+					ul.gallery div.overlay.check.checked {
+						background-position: 0 -16px; }
+
+					ul.gallery div.overlay.check input {
+						display: none; }
+
+
+figure div.image {
+	background-position: 50% 50%;
+	background-repeat: no-repeat; }
+
+	figure div.image a.image {
+		display: block; }
+
+		figure div.image a.image span {
+			display: none; }
+

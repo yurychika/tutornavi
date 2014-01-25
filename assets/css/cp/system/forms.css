@@ -1,0 +1,325 @@
+select,
+textarea,
+input[type="text"],
+input[type="password"],
+input[type="datetime"],
+input[type="datetime-local"],
+input[type="date"],
+input[type="month"],
+input[type="time"],
+input[type="week"],
+input[type="number"],
+input[type="email"],
+input[type="url"],
+input[type="search"],
+input[type="tel"],
+input[type="color"],
+form .input-disabled {
+	background-color: #fff;
+	border: 1px solid #aaa;
+	height: 18px;
+	padding: 4px; }
+
+textarea {
+	height: auto; }
+
+select,
+input[type="file"] {
+	height: 28px;
+	line-height: 28px; }
+
+select[multiple],
+select[size] {
+	height: auto; }
+
+label {
+	display: block;
+	line-height: 20px;
+	margin-bottom: 5px; }
+
+textarea:focus,
+select:focus,
+input[type="text"]:focus,
+input[type="password"]:focus,
+input[type="datetime"]:focus,
+input[type="datetime-local"]:focus,
+input[type="date"]:focus,
+input[type="month"]:focus,
+input[type="time"]:focus,
+input[type="week"]:focus,
+input[type="number"]:focus,
+input[type="email"]:focus,
+input[type="url"]:focus,
+input[type="search"]:focus,
+input[type="tel"]:focus,
+input[type="color"]:focus,
+form .input-disabled:focus {
+	border: 1px solid #52a8ec;
+	outline: none; }
+
+input[disabled],
+select[disabled],
+textarea[disabled],
+input[readonly],
+select[readonly],
+textarea[readonly] {
+	background-color: #eee;
+	border-color: #bbb;
+	color: #666;
+	cursor: not-allowed; }
+
+input[type="radio"],
+input[type="checkbox"] {
+	line-height: 20px;
+	height: 20px;
+	vertical-align: middle; }
+
+div.radio label,
+div.checkbox label {
+	display: block;
+	line-height: 20px;
+	margin-bottom: 0; }
+
+div.radio input[type="radio"],
+div.checkbox input[type="checkbox"] {
+	float: left;
+	margin-right: 5px; }
+
+div.radio.inline2 label,
+div.checkbox.inline2 label {
+	float: left;
+	width: 50%; }
+
+div.radio.inline3 label,
+div.checkbox.inline3 label {
+	float: left;
+	width: 33.33%; }
+
+div.radio.inline4 label,
+div.checkbox.inline4 label {
+	float: left;
+	width: 25%; }
+
+div.radio.inline label,
+div.checkbox.inline label {
+	float: left;
+	margin-right: 10px; }
+
+form .help,
+form .help.error,
+form .help.success {
+	display: block;
+	font-size: 11px;
+	line-height: 11px;
+	margin-top: 5px; }
+
+form .help.inline {
+	display: inline-block;
+	margin-left: 5px; }
+
+form .help.error {
+	color: #c80000; }
+
+form .help.success {
+	color: #c80000; }
+
+form .required {
+	color: #b90000; }
+
+form .error select,
+form .error textarea,
+form .error input[type="text"],
+form .error input[type="password"],
+form .error input[type="datetime"],
+form .error input[type="datetime-local"],
+form .error input[type="date"],
+form .error input[type="month"],
+form .error input[type="time"],
+form .error input[type="week"],
+form .error input[type="number"],
+form .error input[type="email"],
+form .error input[type="url"],
+form .error input[type="search"],
+form .error input[type="tel"],
+form .error input[type="color"] {
+	border-color: #c80000; }
+
+form .error select:focus,
+form .error textarea:focus,
+form .error input[type="text"]:focus,
+form .error input[type="password"]:focus,
+form .error input[type="datetime"]:focus,
+form .error input[type="datetime-local"]:focus,
+form .error input[type="date"]:focus,
+form .error input[type="month"]:focus,
+form .error input[type="time"]:focus,
+form .error input[type="week"]:focus,
+form .error input[type="number"]:focus,
+form .error input[type="email"]:focus,
+form .error input[type="url"]:focus,
+form .error input[type="search"]:focus,
+form .error input[type="tel"]:focus,
+form .error input[type="color"]:focus {
+	border-color: #c80000; }
+
+form .success select,
+form .success textarea,
+form .success input[type="text"],
+form .success input[type="password"],
+form .success input[type="datetime"],
+form .success input[type="datetime-local"],
+form .success input[type="date"],
+form .success input[type="month"],
+form .success input[type="time"],
+form .success input[type="week"],
+form .success input[type="number"],
+form .success input[type="email"],
+form .success input[type="url"],
+form .success input[type="search"],
+form .success input[type="tel"],
+form .success input[type="color"] {
+	border-color: #008000;}
+
+form .success select:focus,
+form .success textarea:focus,
+form .success input[type="text"]:focus,
+form .success input[type="password"]:focus,
+form .success input[type="datetime"]:focus,
+form .success input[type="datetime-local"]:focus,
+form .success input[type="date"]:focus,
+form .success input[type="month"]:focus,
+form .success input[type="time"]:focus,
+form .success input[type="week"]:focus,
+form .success input[type="number"]:focus,
+form .success input[type="email"]:focus,
+form .success input[type="url"]:focus,
+form .success input[type="search"]:focus,
+form .success input[type="tel"]:focus,
+form .success input[type="color"]:focus {
+	border-color: #008000; }
+
+:-moz-placeholder {
+	color: #999999; }
+
+	:-ms-input-placeholder {
+		color: #999999; }
+
+	::-webkit-input-placeholder {
+		color: #999999; }
+
+form .input-wrap {
+	padding-right: 10px; }
+
+form .input-xxsmall {
+	width: 40px; }
+
+form .input-xsmall {
+	width: 60px; }
+
+form .input-small {
+	width: 90px; }
+
+form .input-medium {
+	width: 150px; }
+
+form .input-large {
+	width: 210px; }
+
+form .input-xlarge {
+	width: 300px; }
+
+form .input-xxlarge {
+	width: 550px; }
+
+form .input-xxxlarge {
+	width: 800px; }
+
+form .input-wide {
+	width: 100%; }
+
+form .input-xxsmall-y {
+	height: 40px; }
+
+form .input-xsmall-y {
+	height: 60px; }
+
+form .input-small-y {
+	height: 90px; }
+
+form .input-medium-y {
+	height: 150px; }
+
+form .input-large-y {
+	height: 210px; }
+
+form .input-xlarge-y {
+	height: 270px; }
+
+form .input-xxlarge-y {
+	height: 530px; }
+
+form .input-xxxlarge-y {
+	height: 600px; }
+
+
+form fieldset.form > div.row {
+	margin-bottom: 5px; }
+
+	form fieldset.form > div.row:last-child {
+		margin-bottom: 0; }
+
+	form fieldset.form > div.row:before,
+	form fieldset.form > div.row:after {
+		content: "";
+		display: table;
+		font-size: 0;
+		height: 0;
+		line-height: 0; }
+
+	form fieldset.form > div.row:after {
+		clear: both; }
+
+	form fieldset.form div.legend,
+	form fieldset.form legend {
+		border-bottom: 1px solid #ccc;
+		display: block;
+		font-weight: bold;
+		margin-bottom: 10px;
+		padding-bottom: 5px;
+		width: 100%; }
+
+	form fieldset.form div.actions {
+		padding-top: 5px; }
+
+
+form fieldset.grid > div.row > label {
+	float: left;
+	line-height: 28px;
+	width: 150px; }
+
+form fieldset.grid .field {
+	margin-left: 170px; }
+
+	form fieldset.grid div.static > label,
+	form fieldset.grid div.static > .static {
+		line-height: 20px; }
+
+	form fieldset.grid .static {
+		line-height: 28px; }
+
+	form fieldset.grid div.radio,
+	form fieldset.grid div.checkbox {
+		margin-top: 4px; }
+
+form fieldset.grid div.actions {
+	margin-left: 170px; }
+
+
+form select.date,
+form select.geo {
+	margin-right: 5px; }
+
+
+form .field .ajax {
+	float: right;
+	margin-top: 5px; }

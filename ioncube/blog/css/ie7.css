@@ -1,0 +1,141 @@
+
+#header .header-mid .right .quick-links li {
+	max-width: 100px;
+}
+
+.tutor_reg_form table .choices label {
+	padding-top: 1px !important;
+}
+
+
+.tutor_reg_form table th {
+	font-weight: normal;
+	width: 195px;
+}
+
+.tutor_reg_form table {
+	width: 790px;
+}
+
+.tutor_reg_form table td #fname {
+	margin-right: 0;
+}
+
+.tutor_reg_form table td #fname, .tutor_reg_form table td #sname {
+	width: 65px;
+}
+
+ 
+.tutor_reg_form td {
+	width: 250px;
+	padding-right: 0;
+}
+
+.tutor_reg_form td p {
+	width: 325px;
+}
+
+.cntact {
+	width: 550px;
+}
+
+.tutor_reg_form .add p {
+	width: 550px;
+}
+
+td#age2, td#exp, td#adv {
+	width: 550px;
+}
+
+.tutor_reg_form table .choices input.others {
+	float: left;
+}
+
+.tutor_reg_form .next {
+	margin-left: 380px;
+}
+
+.com_right .npost ul li span, .com_right .nreply ul li span.ttl  {
+	float: left;
+	display: block;
+	padding-bottom: 3px;
+ }
+ 
+ span.ie7 {
+	margin-top: 95px;
+ }
+ 
+ .community_wrap .com_inner .form1 span {
+	margin-top: 22px;
+ }
+ 
+  .english_list li {
+	width: 100%;
+  }
+ .english_list li p {
+	width: 100%;
+	float: left;
+}
+
+.flow_wrap .steps li .step_name h4 {
+	font-weight: normal;
+}
+
+.poll_container h2 {
+	font-weight: normal;
+}
+
+.flow_wrap .tutor_process .right p, .flow_wrap .tutor_process .left p, .flow_wrap .student_process ul li p {
+	margin-top: 8px;
+}
+
+.flow_wrap .tutor_process .right p, .flow_wrap .tutor_process .left p, .flow_wrap .student_process ul li p {
+	margin-top: 18px;
+}
+
+.flow_wrap .tutor_process .left .left1, .flow_wrap .tutor_process .left .left2 {
+	margin-left: 28px;
+}
+
+.flow_wrap .tutor_process .left .left5{
+	margin-left: 25px;
+}
+
+.flow_wrap .tutor_process .left .left3 {
+	margin-left: -10px;
+}
+
+.flow_wrap .tutor_process .left .left4  {
+	margin-left: 15px;
+}
+.flow_wrap .student_process .note p {
+	margin-top: 5px;
+}
+
+#ranking_tbl td ul li span {
+	top: 2px;
+}
+
+#ranking_tbl th {
+	font-size: normal !important;
+}
+
+.info_box .t_info .ratings li div.fav span {
+	top: -40px;
+	left: 18px;
+}
+
+.icon_box .list1 {
+	padding-top: 11px;
+}
+.faq .page_nav {
+	float:left;
+	width:160px;
+}
+.search_tutor .search-mid #t_adv {
+	padding-left:16px;
+	text-indent: 0;
+}
+.registration_wrap h3 {
+font-weight:normal;
+}

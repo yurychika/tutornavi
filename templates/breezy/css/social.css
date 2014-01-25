@@ -1,0 +1,57 @@
+.social-bookmarks li {
+	background-color: #333;
+	float: left;
+	margin-right: 2px;
+}
+.social-bookmarks li a {
+	background-position: -4px -4px;
+	background-repeat: no-repeat;
+	display: block;
+	height: 32px;
+	text-indent: -9999px;
+	transition: background 0.2s ease-in-out;
+		-moz-transition: background 0.2s ease-in-out;
+		-ms-transition: background 0.2s ease-in-out;
+		-webkit-transition: background 0.2s ease-in-out;
+		-o-transition: background 0.2s ease-in-out;
+	width: 32px; }
+
+.social-bookmarks li.facebook a {
+	background-image: url("[base_url]templates/[template]/images/social/icons/facebook.png");
+}
+.social-bookmarks li.facebook a:hover {
+	background-color: #3b5998;
+}
+.social-bookmarks li.linkedin a {
+	background-image: url("[base_url]templates/[template]/images/social/icons/linkedin.png");
+}
+.social-bookmarks li.linkedin a:hover {
+	background-color: #71b2d0;
+}
+.social-bookmarks li.rss a {
+	background-image: url("[base_url]templates/[template]/images/social/icons/rss.png");
+}
+.social-bookmarks li.rss a:hover {
+	background-color: #fe9900;
+}
+.social-bookmarks li.skype a {
+	background-image: url("[base_url]templates/[template]/images/social/icons/skype.png");
+}
+.social-bookmarks li.skype a:hover {
+	background-color: #18b7f1;
+}
+.social-bookmarks li.twitter a {
+	background-image: url("[base_url]templates/[template]/images/social/icons/twitter.png");
+}
+.social-bookmarks li.twitter a:hover {
+	background-color: #48c4d2;
+}
+.social-bookmarks li.youtube a {
+	background-image: url("[base_url]templates/[template]/images/social/icons/youtube.png");
+}
+.social-bookmarks li.youtube a:hover {
+	background-color: #f45750;
+}
+.social-bookmarks li a:hover {
+	background-position: -4px -44px;
+}

@@ -1,0 +1,139 @@
+/* user list */
+ul.users-list figure.image {
+	float: left;
+	width: 110px; }
+
+ul.users-list dl.content-grid {
+	margin-left: 110px; }
+
+
+/* user profile */
+section.plugin-users.profile-view div.sidebar div.content-box.profile-actions {
+	padding: 5px 0; }
+
+
+/* user picture */
+section.plugin-users.profile-picture {
+	min-height: 180px;
+	min-width: 400px; }
+
+
+/* user picture thumbnail */
+section.plugin-users.profile-picture-thumbnail figure {
+	float: left;
+	margin-right: 10px; }
+
+section.plugin-users.profile-picture-thumbnail figure.preview {
+	height: [conf.users.picture_dimensions_p_height]px;
+	overflow: hidden;
+	width: [conf.users.picture_dimensions_p_width]px; }
+
+
+/* user signup */
+section.plugin-users.signup-picture figure.image {
+	padding-bottom: 15px; }
+
+	section.plugin-users.signup-picture figure.image figcaption {
+		padding-top: 5px; }
+
+section.plugin-users.signup-picture div.uploader-container {
+	padding-bottom: 10px; }
+
+
+/* profile pictures */
+figure.users-image .size_p, /* profile */
+figure.users-image .size_p a.image {
+	height: 200px;
+	width: 200px; }
+
+figure.users-image .size_l, /* lists */
+figure.users-image .size_l a.image {
+	height: 100px;
+	width: 100px; }
+
+figure.users-image .size_t, /* thumbnail (comments) */
+figure.users-image .size_t a.image {
+	height: 50px;
+	width: 50px; }
+
+	figure.users-image a.image span {
+		display: none; }
+
+
+/* missing pictures */
+figure.users-image .no_image {
+	background-image: url('[base_url]assets/images/users/picture_none.jpg'); }
+
+figure.users-image .no_image_p {
+	background-image: url('[base_url]assets/images/users/picture_none_p.jpg'); }
+
+figure.users-image .no_image_l {
+	background-image: url('[base_url]assets/images/users/picture_none_l.jpg'); }
+
+figure.users-image .no_image_t {
+	background-image: url('[base_url]assets/images/users/picture_none_t.jpg'); }
+
+
+/* remote connect buttons */
+section.plugin-users.login div.remote-connect.extra,
+section.plugin-users.signup-account div.remote-connect.extra {
+	margin-top: 15px;
+	padding-top: 15px; }
+
+	section.plugin-users.login div.remote-connect a,
+	section.plugin-users.signup-account div.remote-connect a {
+		margin-right: 10px; }
+
+
+/* login form */
+section.plugin-users.login input.email {
+	background: url('[base_url]assets/images/users/icons/login-email.png') no-repeat 2px 50%;
+	padding-left: 20px; }
+
+section.plugin-users.login input.password {
+	background: url('[base_url]assets/images/users/icons/login-password.png') no-repeat 2px 50%;
+	padding-left: 20px; }
+
+
+/* icons */
+aside nav.icons a.nav.users.profile {
+	background-image: url('[base_url]assets/images/users/icons/profile.png'); }
+
+aside nav.icons a.nav.users.friends {
+	background-image: url('[base_url]assets/images/users/icons/friends.png'); }
+
+aside nav.icons a.nav.users.visitors {
+	background-image: url('[base_url]assets/images/users/icons/visitors.png'); }
+
+aside nav.icons a.nav.users.settings {
+	background-image: url('[base_url]assets/images/users/icons/settings.png'); }
+
+aside nav.icons a.nav.users.cp {
+	background-image: url('[base_url]assets/images/users/icons/cp.png'); }
+
+aside nav.icons a.nav.users.logout {
+	background-image: url('[base_url]assets/images/users/icons/logout.png'); }
+
+.icon-users-settings {
+	background-image: url('[base_url]assets/images/users/icons/settings.png'); }
+
+.icon-users-privacy {
+	background-image: url('[base_url]assets/images/users/icons/privacy.png'); }
+
+.icon-users-notifications {
+	background-image: url('[base_url]assets/images/users/icons/notifications.png'); }
+
+.icon-users-blacklist {
+	background-image: url('[base_url]assets/images/users/icons/blacklist.png'); }
+
+.icon-users-friends-requests {
+	background-image: url('[base_url]assets/images/users/icons/friends-requests.png'); }
+
+.icon-users-search {
+	background-image: url('[base_url]assets/images/users/icons/search.png'); }
+
+	.icon-users-search-advanced {
+		background-image: url('[base_url]assets/images/users/icons/search-advanced.png'); }
+
+	.icon-users-search-edit {
+		background-image: url('[base_url]assets/images/users/icons/search-edit.png'); }

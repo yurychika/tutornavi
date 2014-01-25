@@ -1,0 +1,235 @@
+
+#nav {
+	width: 100%;
+	height: 40px;
+	float: left;
+}
+
+.left_col  {
+	margin-left:7px;
+	
+	overflow:hidden;
+}
+.right_col {
+	margin-right:5px;
+	overflow:hidden;
+}
+#footer .foot-wrap {
+	margin-left:3px;
+}
+#letter.choices input   {
+	margin-top: 3px;
+ }
+#adv.choices input   {
+	margin-top: 13px;
+ }
+ .content_box {
+margin-right: 27px;
+}
+.cntact {width:613px;}
+.registration_wrap .reg-bar ul li {
+	line-height:42px;
+}
+.registration_wrap .reg-bar ul li.li-0 {
+	margin:0 !important;
+	margin-left:17px !important;
+	width:126px !important;
+	
+}
+.registration_wrap .reg-bar ul li.li-1 {
+	margin-left:48px !important;
+	width:126px !important;
+}
+.registration_wrap .reg-bar ul li.li-2 {
+	margin-left:35px !important;
+	width:126px !important;
+}
+
+.registration_wrap .reg-bar ul li.li-3 {
+	margin-left:40px !important;
+	width:126px !important;
+}
+
+.registration_wrap .reg-bar ul li.li-4 {
+	margin-left:33px  !important;
+	width:126px !important;
+}
+.registration_wrap .reg-bar .regbar3 li.li-0 {
+	margin:0 !important;
+	margin-left:17px !important;
+	width:126px !important;
+	
+}
+.registration_wrap .reg-bar .regbar3 li.li-1 {
+	margin-left:48px !important;
+	width:126px !important;
+}
+.registration_wrap .reg-bar .regbar3 li.li-2 {
+	margin-left:19px !important;
+	width:126px !important;
+}
+
+.registration_wrap .reg-bar .regbar3 li.li-3 {
+	margin-left:40px !important;
+	width:126px !important;
+}
+
+.registration_wrap .reg-bar .regbar3 li.li-4 {
+	margin-left:33px  !important;
+	width:126px !important;
+}
+
+.registration_wrap .reg-bar .regbar4 li.li-2 {
+	margin-left:15px !important;
+	width:126px !important;
+}
+
+.registration_wrap .reg-bar .regbar4 li.li-4 {
+	margin-left:37px  !important;
+	width:126px !important;
+}
+.registration_wrap .reg-bar .regbar5 li.li-2 {
+	margin-left:17px !important;
+	width:126px !important;
+}
+.registration_wrap .reg-bar .regbar5 li.li-3 {
+	margin-left:40px  !important;
+	width:126px !important;
+}
+.registration_wrap .reg-bar .regbar5 li.li-4 {
+	margin-left:29px  !important;
+	width:126px !important;
+}
+
+.community_wrap .com_inner .form1 span {
+	clear:both;
+}
+.community_wrap {
+	margin-left:15px;
+}
+
+.community_wrap .com_inner {
+width: 890px;
+float: left;
+margin-left:30px;
+}
+.com_right .npost ul li span {
+width: 95px;
+display: block;
+float:left;
+}
+.com_right .nreply ul li span.ttl {
+display: block;
+float:left;}
+.com_right .nreply ul li .views,
+.nreply ul li .replies ,
+.reply_box {
+	margin-left:37px;
+}
+
+.faq .page_nav {
+	float:left;
+	width:160px;
+}
+.lang_test .right_col  .english_list p {
+ 	width:685px;
+}
+
+.flow_wrap {
+	margin-right:-40px;
+}
+.poll-head {
+	height:145px !important;
+}
+
+.confirm_form table {
+	margin:20px 0 0 50px;
+}
+.confirm_form .sec_code {
+margin:20px 0 0 50px;
+}
+.confirm_form h2 {
+	margin-left:10px;
+}
+.confirm_form .sec_code,
+.confirm_form .btn_wrap  {
+	margin-left:40px;
+}
+.confirm_form .agree {
+	margin-left:112px;
+}
+
+.registration_wrap_ie6 {
+	margin-right:0px;
+}
+.search_tutor .search-top { 
+	margin-bottom:-2px;
+}
+.info_box .t_info .details {
+	margin-right:-10px;
+	margin-left:5px;
+}
+.info_box .r_box {
+width: 140px;
+float: left;
+}
+
+.info_box .t_info .personal .v_blog a {
+	margin:0 0 0 33px;
+}
+.info_box .t_info .personal {
+	margin-left:-15px;
+}
+.info_box .t_info .ratings {
+left: 400px;
+}
+.info_box .r_box .more {
+
+margin: 0 0 0 36px;
+}
+.search_tutor .search-mid #t_adv {
+	padding-left:16px;
+	text-indent: 0;
+}
+.adv_box {
+margin-left:10px;
+}
+.search_tutor .search-last  {
+	margin-top:-8px;
+}
+.tutor_reg_form table th {
+	font-weight:normal;
+}
+.tutor_reg_form table .phone select {
+margin: 1px 3px 0;
+}
+.tutor_reg_form .next {
+	margin-left:400px;
+}
+.registration_wrap h3 {
+font-weight:normal;
+}
+
+.about-service {
+    margin-left: 20px;
+}
+.foot-logo {
+    width: 113px;
+    display: block;
+    height: 55px;
+    background: url(../images/logo2.png) no-repeat;
+}
+.foot-logo img {
+    display: none;
+    width: 113px;
+    height: 55px;
+    position: relative;
+    z-index: 999999;
+}
+.about-service .content-right {
+    width: 712px;
+    float: right;
+}
+.about-service .content-right .tutor-navi-service ul li .right h3 span {
+    margin-left: 17px;
+}

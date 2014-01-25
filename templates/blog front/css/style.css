@@ -1,0 +1,387 @@
+/******************************
+*************RESET*************
+******************************/
+html, body, div, span, applet, object, iframe,h1, h2, h3, h4, h5, h6, p, blockquote, pre,a, abbr, acronym, address, big, cite, code,del, dfn, em, img, ins, kbd, q, s, samp,small, strike, strong, sub, sup, tt, var,b, u, i, center,dl, dt, dd, ol, ul, li,fieldset, form, label, legend,table, caption, tbody, tfoot, thead, tr, th, td,article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary,time, mark, audio, video {	margin: 0;	padding: 0;	border: 0;	font-size: 100%;	font: inherit;	vertical-align: baseline;}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {	display: block;}body {	line-height: 1;}ol, ul {	list-style: none;}blockquote, q {	quotes: none;}blockquote:before, blockquote:after,q:before, q:after {	content: '';	content: none;}table {	border-collapse: collapse;	border-spacing: 0;}
+
+/******************************
+*************CLEARFIX**********
+******************************/
+.clearfix:after {content: "."; display: block; clear: both; visibility: hidden; line-height: 0; height: 0;} .clearfix {display: inline-block;} html[xmlns] .clearfix {display: block;} * html .clearfix {height: 1%;}
+
+
+
+																	                     
+																	                      
+ /****************			CUSTOM STYLE		****************/
+																	                     
+																	                     
+
+
+html {
+	width: 100%;
+}
+
+body {
+	background:#fffce9 url("../images/bg_body2.jpg");
+	background-repeat: repeat-x;
+	font-family:'Arial', Tahoma;
+	font-size:12px;
+	color:#555555;
+}
+
+a {
+	text-decoration: none;
+}
+
+em {
+	font-style: italic;
+}
+
+strong {
+	font-weight: bold;
+}
+
+.wrapper {
+	width: 100%;
+}
+
+.inner-wrap {
+	width: 980px;
+	margin: auto;
+	position: relative;
+}
+/*==================================HEADER=======================================*/
+#header {
+	width: 100%;
+	float: left;
+}
+
+#header .header-top {
+	width: 100%;
+	float: left;
+	color: #fbeee6;
+	padding: 5px 0;
+}
+
+#header .header-top p {
+	float: left;
+}
+
+#header .header-top ul {
+	float: right;
+}
+
+#header .header-top ul li {
+	float: right;
+	display: inline-block;
+	margin-left: 32px;
+}
+
+#header .header-top ul li a {
+	color: #fbeee6;
+	text-decoration: underline;
+}
+
+#header .header-mid {
+	width: 100%;
+	float: left;
+	padding:2px 0 6px 0;
+	background: #ffffff;
+}
+
+#logo {
+	display: block;
+	width: 230px;
+	height: 120px;
+	float: left;
+}
+
+#header .header-mid .greeting {
+	position: absolute;
+	bottom: 12px;
+	left: 280px;
+	display: block;
+	font-size: 14px;
+	color: #f08117;
+}
+
+#header .header-mid .right {
+	width: 65%;
+	float: right;
+}
+
+#header .header-mid .right .quick-links {
+	width: 100%;
+	float: right;
+	margin-top: 20px;
+}
+
+#header .header-mid .right .quick-links li {
+	display: block;
+	float: right;
+	margin-left: 20px;
+}
+
+#header .header-mid .right .quick-links li a {
+	color: #f08117;
+	font-size: 10px;
+	padding-left: 26px;
+	display: block;
+	line-height: 21px;
+}
+
+#header .header-mid .right .quick-links li #faq {
+	background: url("../images/icn_1.jpg");
+	background-repeat: no-repeat;
+	background-position: 0 0;
+}
+
+
+#header .header-mid .right .quick-links li #map {
+	background: url("../images/icn_2.jpg");
+	background-repeat: no-repeat;
+	background-position: 0 0;
+}
+
+
+#header .header-mid .right .quick-links li #contact {
+	background: url("../images/icn_3.jpg");
+	background-repeat: no-repeat;
+	background-position: 0 0;
+}
+
+
+#header .header-mid .right .quick-links li #fave {
+	background: url("../images/icn_4.jpg");
+	background-repeat: no-repeat;
+	background-position: 0 0;
+}
+
+#header .header-mid .right .language {
+	width: 100%;
+	float: right;
+	margin-top: 15px;
+}
+
+#header .header-mid .right .language li {
+	display: inline-block;
+	float: right;
+	margin-left: 18px;
+}
+
+#header .header-mid .right .language li a {
+	color: #f08117;
+	font-size: 12px;
+}
+
+#header .header-mid .right .language li a:hover {
+	text-decoration: underline;
+}
+
+#header .header-mid .right .char-size {
+	float: right;
+	margin-top: 18px;
+	width:140px;
+}
+
+#header .header-mid .right .char-size li {
+	float: right;
+	display: inline-block;
+	line-height: 22px;
+	color: #f08117;
+}
+
+#header .header-mid .right .char-size li.title {
+	margin-right: 5px;
+}
+
+#header .header-mid .right .char-size li a {
+	display: block;
+	width: 20px;
+	height: 19px;
+	line-height:19px;
+	text-align: center;
+	color: #ff8238;
+	font-size: 12px;
+	border: 1px solid #ff8238;
+	margin-left: 3px;
+}
+
+#header .header-mid .right .char-size li a.current, #header .header-mid .right .char-size li a:hover {
+	background: #ff8238;
+	color: #ffffff;
+}
+
+#header .header-mid .right #mypage {
+	margin-top:19px;
+	margin-right:40px;
+	float:right;
+	display: block;
+	background: url("../images/btn_one.jpg");
+	background-repeat: no-repeat;
+	width: 54px;
+	height: 20px;
+	padding-left: 23px;
+	color: #fbd9ba;
+	line-height: 20px;
+	font-size: 11px;
+}
+
+#nav {
+	width: 100%;
+	height: 40px;
+	float: left;
+	margin-top:1px;
+}
+
+#nav ul li {
+	display: inline-block;
+	float: left;
+	line-height: 38px;
+	height:40px;
+	background: url("../images/bg_list.jpg");
+	background-repeat: no-repeat;
+	background-position: right center;
+	width: 160px;
+	text-align: center;
+}
+
+#nav ul li.last {
+	background: none;
+}
+
+#nav ul li a {
+	display: block;
+	font-size: 13px;
+	text-align: center;
+	margin: 0 10px;
+	color: #f29236;
+	height:40px;
+}
+
+#nav ul li a:hover, #nav ul li a.current {
+	background: url("../images/nav_hover.jpg");
+	background-repeat: no-repeat;
+	background-position: bottom center;
+	color: #da6204;
+}
+/*==================================CONTENT=======================================*/
+.content-wrap {
+	width: 100%;
+	float: left;
+	padding-bottom: 20px;
+}
+
+.content-wrap #content {
+	background: url("../images/bg_content.png");
+	background-repeat: repeat-y;
+	background-position: 0 0;
+	width: 992px;
+	padding: 0;
+	margin: auto;
+	padding-bottom: 30px;
+	position: relative;
+	color: #555555;
+}
+
+.content-wrap #content .crumbs {
+	float: left;
+	width: 95%;
+	margin: 12px 0 22px 14px;
+}
+
+.content-wrap #content .crumbs li {
+	display: inline-block;
+	float: left;
+	color: #777777;
+	margin-right: 1px;
+}
+
+.content-wrap #content .crumbs li a {
+	color: #777777;
+}
+.content-wrap #content .crumbs li a:hover, .content-wrap #content .crumbs li a.currentt {
+	text-decoration: underline;
+}
+
+.content-wrap #content h2.c_title {
+	font-size: 18px;
+	border-left: 7px solid #ff8238;
+	text-indent: 5px;
+	color: #ff8238;
+	font-weight: bold;
+}
+
+/*==================================FOOTER=======================================*/
+#footer {
+	background: url("../images/bg_content.png");
+	background-repeat: repeat-y;
+	background-position: 0 0;
+	width: 992px;
+	padding: 0;
+	margin: auto;
+	min-height: 60px;
+	position: relative;
+}
+
+#footer .foot-wrap {
+	width: 980px;
+	margin-left:6px;
+	float: left;
+	background: #ff8238;
+	height: 60px;
+}
+
+.foot-links {
+	width: 530px;
+	margin: 15px 0 0 210px;
+}
+
+.foot-links li {
+	display: inline-block;
+	float: left;
+	color: #ffffff;
+	margin: 0 4px;
+}
+
+.foot-links li a {
+	color: #fff7f2;
+}
+
+#footer .foot-wrap p {
+	width: 500px;
+	margin: 10px 0 0 210px;
+	text-align: center;
+	color: #fff7f2;
+}
+
+.foot-logo {
+	position: absolute;
+	top: 5px;
+	right: 20px;
+	
+z-index: 9999;
+}
+
+.shadow {
+	width: 992px;
+	background: #fffce9 url(../images/footer_bottom_image.jpg) no-repeat;
+	height: 13px;
+	float:left;
+}
+element.style {
+}
+html[xmlns] .clearfix {
+display: block;
+}
+.content_box {
+margin-right: 54px;
+}
+textarea {
+	overflow:auto;
+}
+.clear {
+	clear:both;
+}

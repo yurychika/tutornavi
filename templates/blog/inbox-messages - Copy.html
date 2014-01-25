@@ -1,0 +1,161 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>Untitled Document</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css"/>
+    <link rel="stylesheet" type="text/css" href="css/sparkbox-select.css"/>
+    <!--[if lt IE 9]>
+    <script type="text/javascript" src="js/IE9.js"></script>
+    <![endif]-->
+    <script  type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+    <script type="text/javascript" src="js/jquery.sparkbox-select.js"></script>
+    <script type="text/javascript" src="js/script.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function() {
+            $('.sparkbox-custom').sbCustomSelect();
+        });
+    </script>
+</head>
+<body>
+<div id="wrapper">
+<div id="header">
+    <div class="header-top clearfix">
+        <p>Hong Kong Language Tutors Reviews Site</p>
+        <ul class="clearfix">
+            <li>Nickname</li>
+            <li><a title="link1" href="#">Log Out</a></li>
+        </ul>
+    </div>
+    <div class="header-mid clearfix">
+        <a class="logo" title="logo" href="#"><img alt="logo" src="img/logo.png" width="223" height="119"/></a>
+        <div class="greeting"><p>Hello,  <span>Nickname</span> !</p></div>
+        <div class="right">
+            <ul class="quick-links">
+                <li><a id="faq" title="FAQ" href="#">FAQ</a></li>
+                <li><a id="map" title="SITE MAP" href="#">Site Map</a></li>
+                <li><a id="contact" title="CONTACT" href="#">Contact Us</a></li>
+                <li><a id="fave" title="FAVE" href="#">My Favorite</a></li>
+            </ul>
+            <ul class="language">
+                <li><a title="Jap" href="#">日本語</a></li>
+                <li><a title="Eng" href="#">ENG</a></li>
+            </ul>
+            <ul class="char-size">
+                <li class="title">Font Size:</li>
+                <li><a title="Small" href="#">S</a></li>
+                <li><a class="current" title="Medium" href="#">M</a></li>
+                <li><a title="Bold" href="#">B</a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="main-nav">
+        <ul class="clearfix">
+            <li><a href="#" class="arrow-1">Mypage Top</a></li>
+            <li class="active"><a href="#" class="arrow-1">Message</a></li>
+            <li><a class="arrow-2" href="#">Blog</a></li>
+            <li><a href="#" class="arrow-2">Job</a></li>
+            <li><a href="#" class="arrow-3">Profile</a></li>
+        </ul>
+    </div>
+</div>
+<div id="container"  class="two-col">
+<div class="crumbs-menu clearfix">
+    <ul class="crumbs">
+        <li><a href="#">Home</a></li>
+        <li>&gt;</li>
+        <li><a href="#">Tutor Message</a></li>
+        <li>&gt;</li>
+        <li><a href="#"></a></li>
+    </ul>
+    <ul class="menu">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Tutor Search</a></li>
+        <li><a href="#">About Service</a></li>
+        <li><a href="#">Community</a></li>
+        <li><a href="#">Price List</a></li>
+        <li><a href="#">Information</a></li>
+    </ul>
+</div>
+<div class="page-title clearfix">
+    <h2>Communication</h2>
+    <div class="member-alert">
+        <ul>
+            <li><img src="img/icon-5.png" alt=""/>You have got <a href="#">0</a> new messages </li>
+            <li><img src="img/icon-12.png" alt=""/>You have got XXXX points </li>
+            <li><img src="img/icon-13.png" alt=""/>You have got XXXX score </li>
+        </ul>
+    </div>
+</div>
+<div class="content">
+<div class="sidebar-left">
+    <div class="box">
+        <h2>Message <a href="#" class="click"></a></h2>
+        <ul>
+            <li><a href="#">Inbox (2)</a></li>
+            <li class="active"><a href="#">Sent (3)</a></li>
+        </ul>
+    </div>
+    <div class="box">
+        <h2>Favourite Tutor  <a href="#" class="click"></a></h2>
+        <ul>
+            <li><a href="#">Favourite Tutor Confirm</a></li>
+        </ul>
+    </div>
+</div>
+<div class="main-content">
+    <div class="inbox-messages">
+        <h1>Message Inbox</h1>
+        <div class="text">
+            <p>Please respond to all the enquiries as soon as possible. Once you get the internal message from the student, you will also get the notice email “You have got an email from a student” at your registered  email account.By upgrading your membership to platinum tutor account,
+                you will be able to contact unlimited members and get more tutor jobs during the specific service period.
+                <a href="#">Upgrade Now</a></p>
+            <a class="button" href="#">Membership Features</a>
+        </div>
+        <div class="manage-messages">
+            <div class="actions">
+                <select id="x">
+                    <option value="1">Inbox (3)</option>
+                    <option value="2">Sent (0)</option>
+                    <option value="3">Unread (1)</option>
+                    <option value="4">Starred (1)</option>
+                </select>
+                <select id="e">
+                    <option value="1">Action...</option>
+                    <option value="2">Mark as read</option>
+                    <option value="3">Mark as unread</option>
+                    <option value="4">Star</option>
+                    <option value="4">Delete</option>
+                </select>
+                <button>+COMPOSE NEW</button>
+            </div>
+            <table>
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td><img src="img/avatar-1.jpg" alt=""/></td>
+                </tr>
+            </table>
+        </div>
+    </div>
+</div>
+</div>
+<div id="footer">
+    <ul class="foot-links">
+        <li><a title="link1" href="#">Site Map</a></li>
+        <li>|</li>
+        <li><a title="link2" href="#">Privacy Policy</a></li>
+        <li>|</li>
+        <li><a title="link3" href="#">Terms of Membership</a></li>
+        <li>|</li>
+        <li><a title="link4" href="#">Terms &amp; Conditions</a></li>
+        <li>|</li>
+        <li><a title="link4" href="#">Contact Us</a></li>
+    </ul>
+    <p>Copyright © TutorNavi All rights reserved.</p>
+    <a class="foot-logo" title="Logo" href="#"><img alt="Logo" src="img/logo-footer.png" width="97" height="55"/></a>
+</div>
+</div>
+</body>
+</html>

@@ -1,0 +1,1 @@
+{"3":{"keyword":"gender","multilang":"0","class":"","style":"","name":"Gender","type":"select","items":{"1":"Man","2":"Woman"}},"4":{"keyword":"birthday","multilang":"0","class":"","style":"","name":"Age","type":"birthday"},"5":{"keyword":"location","multilang":"0","class":"","style":"","name":"Location","type":"location"}}

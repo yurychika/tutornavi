@@ -1,0 +1,30 @@
+/* payment form */
+section.plugin-billing.billing-payment div.checkout {
+	padding-top: 20px; }
+
+	section.plugin-billing.billing-payment div.checkout div.gateway {
+		padding-top: 15px; }
+
+		section.plugin-billing.billing-payment div.checkout div.gateway.first,
+		section.plugin-billing.billing-payment div.checkout div.gateway:first-child {
+			padding-top: 0; }
+
+
+/* plans/credits list */
+section.plugin-billing.billing-plans span.amount,
+section.plugin-billing.billing-credits span.amount {
+	float: right; }
+
+
+/* purchase history */
+section.plugin-billing.billing-invoices span.date {
+	float: right;
+	width: 130px; }
+
+section.plugin-billing.billing-invoices span.amount {
+	float: right;
+	width: 80px; }
+
+/* icons */
+.icon-billing-invoices {
+	background-image: url('[base_url]assets/images/billing/icons/invoices.png'); }

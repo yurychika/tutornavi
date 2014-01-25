@@ -1,0 +1,7 @@
+/* grid */
+section.plugin-system.geo-browse th.actions {
+	width: 120px; }
+
+/* icons */
+.icon-system-geo-new {
+	background: url('[base_url]assets/images/cp/system/geo/icons/item-new.png') no-repeat 0 50%; }

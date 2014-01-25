@@ -1,0 +1,52 @@
+/* icons */
+nav#navigation a.system.settings {
+	background-image: url('[base_url]assets/images/cp/system/icons/settings.png'); }
+
+nav#navigation a.system.languages {
+	background-image: url('[base_url]assets/images/cp/system/icons/languages.png'); }
+
+nav#navigation a.system.templates {
+	background-image: url('[base_url]assets/images/cp/system/icons/templates.png'); }
+
+nav#navigation a.system.storages {
+	background-image: url('[base_url]assets/images/cp/system/icons/storages.png'); }
+
+nav#navigation a.system.plugins {
+	background-image: url('[base_url]assets/images/cp/system/icons/plugins.png'); }
+
+.icon {
+	display: block;
+	height: 16px;
+	width: 16px; }
+
+.icon-text {
+	float: left;
+	height: auto;
+	min-height: 16px;
+	padding-left: 20px;
+	width: auto; }
+
+	.icon-text-invert {
+		padding-left: 0;
+		padding-right: 20px; }
+
+	.icon-system-ajax {
+		background: url('[base_url]assets/images/cp/system/icons/spinner.png') no-repeat 0 50%; }
+
+	.icon-system-done {
+		background: url('[base_url]assets/images/cp/system/icons/done.png') no-repeat 0 50%; }
+
+	.icon-system-cancel {
+		background: url('[base_url]assets/images/cp/system/icons/cancel.png') no-repeat 0 50%; }
+
+	.icon-system-sort {
+		background: url('[base_url]assets/images/cp/system/icons/sort.png') no-repeat 0 50%; }
+
+	.icon-system-search {
+		background: url('[base_url]assets/images/cp/system/icons/search.png') no-repeat 0 50%; }
+
+	.icon-system-translate {
+		background: url('[base_url]assets/images/cp/system/icons/translate.png') no-repeat 0 50%; }
+
+	.icon-system-ajax {
+		background: url('[base_url]assets/images/cp/system/icons/spinner.gif') no-repeat 0 50%; }

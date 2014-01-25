@@ -1,0 +1,5 @@
+section.plugin-timeline figure.classifieds-image div.thumbnail,
+section.plugin-timeline figure.classifieds-image div.thumbnail a.image {
+	background-size: contain;
+	height: 76px;
+	width: 95px; }

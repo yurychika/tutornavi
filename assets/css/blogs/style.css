@@ -1,0 +1,17 @@
+/* blogs index */
+section.plugin-blogs.blogs-index figure.image {
+	float: left;
+	width: 60px; }
+
+section.plugin-blogs.blogs-index header.item-header,
+section.plugin-blogs.blogs-index div.item-article,
+section.plugin-blogs.blogs-index footer.item-footer {
+	margin-left: 60px; }
+
+
+/* icons */
+aside nav.icons a.nav.blogs {
+	background-image: url('[base_url]assets/images/blogs/icons/blogs.png'); }
+
+.icon-blogs-new {
+	background-image: url('[base_url]assets/images/blogs/icons/blogs-new.png'); }

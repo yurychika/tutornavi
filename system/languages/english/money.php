@@ -1,0 +1,28 @@
+<?php
+
+$language = array(
+	'AUD' => '(AUD) Australian Dollar',
+	'BRL' => '(BRL) Brazilian Real',
+	'CAD' => '(CAD) Canadian Dollar',
+	'CZK' => '(CZK) Czech Koruna',
+	'DKK' => '(DKK) Danish Krone',
+	'EUR' => '(EUR) Euro',
+	'HKD' => '(HKD) Hong Kong Dollar',
+	'HUF' => '(HUF) Hungarian Forint',
+	'ILS' => '(ILS) Israeli New Sheqel',
+	'JPY' => '(JPY) Japanese Yen',
+	'MYR' => '(MYR) Malaysian Ringgit',
+	'MXN' => '(MXN) Mexican Peso',
+	'NOK' => '(NOK) Norwegian Krone',
+	'NZD' => '(NZD) New Zealand Dollar',
+	'PHP' => '(PHP) Philippine Peso',
+	'PLN' => '(PLN) Polish Zloty',
+	'GBP' => '(GBP) Pound Sterling',
+	'SGD' => '(SGD) Singapore Dollar',
+	'SEK' => '(SEK) Swedish Krona',
+	'CHF' => '(CHF) Swiss Franc',
+	'TWD' => '(TWD) Taiwan New Dollar',
+	'THB' => '(THB) Thai Baht',
+	'TRY' => '(TRY) Turkish Lira',
+	'USD' => '(USD) U.S. Dollar',
+);

@@ -1,0 +1,61 @@
+div.uploader a.browse,
+div.uploader a.upload {
+	margin-bottom: 10px; }
+
+div.uploader div.error {
+	margin-top: 10px; }
+
+div.uploader ul.files {
+	border-radius: 3px;
+		-moz-border-radius: 3px;
+		-webkit-border-radius: 3px;
+	border: 1px solid #ccc;
+	max-height: 263px;
+	margin-bottom: 10px;
+	overflow-y: auto; }
+
+	div.uploader ul.files li.file {
+		padding: 8px; }
+
+		div.uploader ul.files li.file + li.file {
+			border-top: 1px solid #ccc; }
+
+			div.uploader ul.files li.file span {
+				display: block;
+				float: left; }
+
+			div.uploader ul.files li.file span.name {
+				background: url('images/file-new.png') no-repeat 0 50%;
+				padding-left: 22px; }
+
+			div.uploader ul.files li.file.uploading span.name {
+				background-image: url('images/file-uploading.png'); }
+
+			div.uploader ul.files li.file.complete span.name {
+				background-image: url('images/file-complete.png'); }
+
+			div.uploader ul.files li.file.error span.name {
+				background-image: url('images/file-error.png'); }
+
+			div.uploader ul.files li.file span.status {
+				float: right;
+				text-align: right; }
+
+			div.uploader ul.files li.file span.size {
+				float: right;
+				margin-left: 10px;
+				text-align: right;
+				width: 60px; }
+
+			div.uploader ul.files li.file div.progress {
+				float: right;
+				margin-top: 2px;
+				width: 200px; }
+
+			div.uploader ul.files li.file a.delete {
+				background: url('images/file-delete.png') no-repeat 0 50%;
+				display: block;
+				float: right;
+				margin-left: 10px;
+				min-height: 16px;
+				padding-left: 20px; }

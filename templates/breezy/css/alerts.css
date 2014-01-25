@@ -1,0 +1,45 @@
+.alert {
+	background-color: #ffe495;
+	border-radius: 3px;
+		-moz-border-radius: 3px;
+		-webkit-border-radius: 3px;
+	color: #a27d0d;
+	left: 0;
+	margin-bottom: 10px;
+	padding: 8px 14px;
+	position: relative;
+	top: 0; }
+
+	.alert a {
+		color: #a27d0d; }
+
+.alert .close,
+.alert .close:hover,
+.alert .close:active {
+	color: #222;
+	font-size: 13px;
+	position: absolute;
+	right: 10px;
+	text-decoration: none;
+	top: 3px; }
+
+.alert.success {
+	background-color: #c1eaad;
+	color: #3a8415; }
+
+	.alert.success a {
+		color: #3a8415; }
+
+.alert.error {
+	background-color: #f7d3d2;
+	color: #bb4c49; }
+
+	.alert.error a {
+		color: #bb4c49; }
+
+.alert.info {
+	background-color: #add7f0;
+	color: #207ab0; }
+
+	.alert.info a {
+		color: #207ab0; }

@@ -1,0 +1,1 @@
+{"subject":"Thanks for joining","message_html":"<p>Hello [name],<\/p><p>Welcome to our community. Your account is now active.<\/p><p>Best regards,<\/p><p>Support Team<\/p>","message_text":"Hello [name],\n\nWelcome to our community. Your account is now active.\n\nBest regards,\n\nSupport Team"}

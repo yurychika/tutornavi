@@ -1,0 +1,118 @@
+.button {
+	background-color: #366a7b;
+	border: 0;
+	border-radius: 3px;
+		-moz-border-radius: 3px;
+		-webkit-border-radius: 3px;
+	color: #fff;
+	cursor: pointer;
+	display: inline-block;
+	font-size: 12px;
+	font-weight: bold;
+	line-height: 16px;
+	overflow: visible;
+	outline: 0;
+	padding: 9px 15px;
+	position: relative;
+	text-decoration: none;
+	transition: background 0.2s ease-in-out;
+		-moz-transition: background 0.2s ease-in-out;
+		-ms-transition: background 0.2s ease-in-out;
+		-webkit-transition: background 0.2s ease-in-out;
+		-o-transition: background 0.2s ease-in-out; }
+
+	.button:hover {
+		color: #fff;
+		background-color: #23444b;
+		text-decoration: none; }
+
+.button.small {
+	font-size: 11px;
+	padding: 4px 10px; }
+
+.button.medium {
+	padding: 9px 15px; }
+
+.button.large {
+	font-size: 14px;
+	padding: 13px 20px; }
+
+.button.emphasis {
+	text-transform: uppercase; }
+
+.button.default {
+	background-color: #366a7b; }
+
+	.button.default:hover {
+		background-color: #23444b; }
+
+.button.important {
+	background-color: #e16565; }
+
+	.button.important:hover {
+		background-color: #b45353; }
+
+.button.info {
+	background-color: #2f9bc1; }
+
+	.button.info:hover {
+		background-color: #2a8cae; }
+
+.button.warning {
+	background-color: #ee8600; }
+
+	.button.warning:hover {
+		background-color: #c17007; }
+
+.button.success {
+	background-color: #77af12; }
+
+	.button.success:hover {
+		background-color: #679710; }
+
+.button.inverse {
+	background-color: #404040; }
+
+	.button.inverse:hover {
+		background-color: #202020; }
+
+.buttons {
+    display: inline-block;
+    list-style: none; }
+
+.buttons li {
+	float: left; }
+
+.buttons .button {
+	float: left;
+	margin-left: -1px; }
+
+.buttons li:not(:first-child):not(:last-child) .button,
+.buttons > .button:not(:first-child):not(:last-child),
+.button.middle {
+	border-radius: 0;
+		-moz-border-radius: 0;
+		-ms-border-radius: 0;
+		-o-border-radius: 0;
+		-webkit-border-radius: 0; }
+
+.buttons li:first-child .button,
+.buttons > .button:first-child,
+.button.first {
+	border-top-right-radius: 0;
+		-moz-border-radius-topright: 0;
+		-moz-border-radius-bottomright: 0;
+	border-bottom-right-radius: 0;
+		-webkit-border-top-right-radius: 0;
+		-webkit-border-bottom-right-radius: 0;
+	margin-left: 0; }
+
+.buttons li:last-child .button,
+.buttons > .button:last-child,
+.button.last {
+	border-top-left-radius: 0;
+		-moz-border-radius-topleft: 0;
+		-moz-border-radius-bottomleft: 0;
+	border-bottom-left-radius: 0;
+		-webkit-border-top-left-radius: 0;
+		-webkit-border-bottom-left-radius: 0; }
