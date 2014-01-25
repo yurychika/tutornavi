@@ -5,3 +5,6 @@ uploads/
 www.tutornavi.org/
 tutornavi_backup.zip
 .htaccess
+externals/
+install/
+cgi-bin/
